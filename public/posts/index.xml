@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://davidbeck.online/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Sep 2021 08:36:13 +0000</lastBuildDate>
+    
+	<atom:link href="http://davidbeck.online/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2021 09 30_hello World</title>
+      <link>http://davidbeck.online/posts/2021-09-30_hello-world/</link>
+      <pubDate>Thu, 30 Sep 2021 08:36:13 +0000</pubDate>
+      
+      <guid>http://davidbeck.online/posts/2021-09-30_hello-world/</guid>
+      <description>Starting again with hugo website delivery via AWS Amplify.
+Hello World. </description>
+    </item>
+    
+  </channel>
+</rss>
