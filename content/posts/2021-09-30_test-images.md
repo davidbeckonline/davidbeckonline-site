@@ -7,6 +7,7 @@ featured_image: "/images/2021-07-23_img_hh.jpg"
 
 ---
 
-This is ment to test images.
+In this post I am testing images.
+You should see a featured_image on top and the same image below.
 
 ![testimage](/images/2021-07-23_img_hh.jpg)
