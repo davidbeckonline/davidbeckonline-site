@@ -6,10 +6,19 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 08:36:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Sep 2021 09:06:17 +0000</lastBuildDate>
     
 	<atom:link href="http://davidbeck.online/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021 09 30_test Images</title>
+      <link>http://davidbeck.online/posts/2021-09-30_test-images/</link>
+      <pubDate>Thu, 30 Sep 2021 09:06:17 +0000</pubDate>
+      
+      <guid>http://davidbeck.online/posts/2021-09-30_test-images/</guid>
+      <description>This is ment to test images.</description>
+    </item>
     
     <item>
       <title>2021 09 30_hello World</title>

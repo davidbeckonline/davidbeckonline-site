@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://davidbeck.online/posts/2021-09-30_hello-world/</loc>
-    <lastmod>2021-09-30T08:36:13+00:00</lastmod>
+    <loc>http://davidbeck.online/posts/2021-09-30_test-images/</loc>
+    <lastmod>2021-09-30T09:06:17+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://davidbeck.online/</loc>
-    <lastmod>2021-09-30T08:36:13+00:00</lastmod>
+    <lastmod>2021-09-30T09:06:17+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://davidbeck.online/posts/</loc>
+    <lastmod>2021-09-30T09:06:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2021-09-30_hello-world/</loc>
     <lastmod>2021-09-30T08:36:13+00:00</lastmod>
   </url>
   
