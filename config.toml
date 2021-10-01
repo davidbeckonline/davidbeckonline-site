@@ -1,10 +1,10 @@
 baseURL = "http://davidbeck.online/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Start"
 theme = "ananke"
 
 [params]
-  description = "The last theme you'll ever need. Maybe."
+  description = "A simple Website for random stuff."
   twitter = "https://twitter.com/davidbeckonline"
   github = "https://github.com/davidbeckonline"
   linkedin = "https://www.linkedin.com/in/david-beck-31442743/"
