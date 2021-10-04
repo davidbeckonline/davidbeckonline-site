@@ -1,6 +1,6 @@
 baseURL = "http://davidbeck.online/"
 languageCode = "en-us"
-title = "Start"
+title = "davidbeck.online"
 theme = "ananke"
 
 [params]
