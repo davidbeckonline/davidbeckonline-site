@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "davidbeck.online"
 theme = "ananke"
 
+SectionPagesMenu = "main"
+
 [params]
   description = "A simple Website for random stuff."
   twitter = "https://twitter.com/davidbeckonline"
