@@ -13,3 +13,5 @@ For more information on agile website delivery with Hugo and AWS, you might want
 ```
 Hello World.
 ```
+
+![showyourstripes-berlin](/images/2021-07-24_robot2.png)
