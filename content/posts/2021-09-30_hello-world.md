@@ -3,7 +3,7 @@ title: "Hello World."
 date: 2021-09-30T08:36:13Z
 draft: false
 
-featured_image: "/images/2021-07-24_robot.png"
+featured_image: "/images/2021-07-24_robot2.png"
 ---
 
 Starting again with a hugo based website running on AWS Amplify.
