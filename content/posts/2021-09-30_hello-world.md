@@ -13,4 +13,4 @@ For more information on agile website delivery with Hugo and AWS, you might want
 Hello World.
 ```
 
-<img src="/images/2021-07-24_robot2.jpg" width="201" height="269" />
+<img src="2021-07-24_robot2.jpg" alt="Robot2" width="201" height="269">
