@@ -4,8 +4,7 @@ date: 2021-10-04T11:52:05Z
 draft: false
 ---
 
-I will add a few words about me on this page.
-Below you will find some legel stuff.
+This is a private website. Some legal stuff below.
 
 ===
 

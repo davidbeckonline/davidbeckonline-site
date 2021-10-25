@@ -3,7 +3,7 @@ title: "CV"
 date: 2021-10-04T11:52:05Z
 draft: false
 
-featured_image: "/images/2019-12-03_re-invent_400px.png"
+featured_image: "/images/2021-07-23_img_hh.jpg"
 
 ---
 
