@@ -1,0 +1,13 @@
+---
+title: "AWS certified SA-A"
+date: 2021-10-01T04:03:52Z
+draft: false
+
+featured_image: "/images/2021-11_AWS-badges.png"
+
+---
+
+Yiiiiieeehaaaa!
+Finally 'AWS certified Solution Architect - Associate'.
+
+![aws-certified](/images/2021-11_AWS-badges.png)
