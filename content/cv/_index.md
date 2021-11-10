@@ -15,11 +15,6 @@ I am a data-driven Program Manager with leadership experience who has a backgrou
 
 Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house. I am always up for something new. Just recently, our boys got me into skateboarding.
 
-## AWS specific experience
-
-- Certified Cloud Practitioner
-- 5.0 Star rated Builder Session at re:invent 2019 
-
 ## Work Experience
 
 ### Senior Program Manager - Amazon Advertising 
@@ -37,6 +32,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 06/2018 - 04/2020 
 - Consultant for agencies and direct advertisers
 - Improvement of existing internal marketing applications
+- delivered 5.0 Star rated Builder Session at AWS re:invent 2019
 
 ### Marketing Manager - Social Advertising EU
 03/2016 - 07/2018 
@@ -57,6 +53,13 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 - Scoping workshops and project assessments
 - Presales support
 - Execution of end-user trainings
+
+
+## Certifications
+- AWS certified Solution Architect - Associate
+- AWS certified Cloud Practitioner
+ 
+
 
 ## Education
 ### Geoecology / Ecosystem Management (Diploma)
