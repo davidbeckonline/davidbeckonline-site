@@ -7,7 +7,7 @@ featured_image: "/images/2021-07-23_img_hh.jpg"
 
 ---
 
-Status Oct 2021
+Status Nov 2021
 
 ![davidbeck_cv](/images/2019-12-03_re-invent_400px.png)
 
@@ -15,59 +15,65 @@ I am a data-driven Program Manager with leadership experience who has a backgrou
 
 Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house. I am always up for something new. Just recently, our boys got me into skateboarding.
 
-## Work Experience
+***
 
-### Senior Program Manager - Amazon Advertising 
-05/2021 - present 
+### Work Experience
+
+#### @ Amazon Advertising
+
+**Senior Program Manager** (05/2021 - present)
 - Structural analysis of the delivery in the Amazon DSP
 - Set up of new databases and KPIs and in cooperation with the BI team
 
-### Program Manager - Advertising Services
-05/2020 - 04/2021 
+**Program Manager - Advertising Services** (05/2020 - 04/2021)
 - Identification, structuring and addressing of structural problems of the service teams
 - Definition of KPIs for weekly business reviews
 - Management of a six-person support team for Q4-2020
 
-### Programmatic Advertising Consultant (TAM)
-06/2018 - 04/2020 
+**Programmatic Advertising Consultant (TAM)** (06/2018 - 04/2020)
 - Consultant for agencies and direct advertisers
 - Improvement of existing internal marketing applications
 - delivered 5.0 Star rated Builder Session at AWS re:invent 2019
 
-### Marketing Manager - Social Advertising EU
-03/2016 - 07/2018 
+#### @ Amazon
+
+**Marketing Manager - Social Advertising EU** (03/2016 - 07/2018)
 - Expert for social media tools and policies
 - Improvement of existing internal marketing applications
 - Budget planning and responsibility for social media activities across Europe ![](RackMultipart20211022-4-12bc9y9_html_9576b3335526579.png)
 
-### Service Portfolio Manager for Sustainability Cloud
-04/2015 - 02/2016 
+#### @ SAP
+
+**Service Portfolio Manager for Sustainability Cloud** (04/2015 - 02/2016)
 - Identification, description, and evaluation of cloud services
 - Execution of partner workshops
 - Support for customers and partners of the SAP Product Stewardship Network (PSN)
 
-### Consultant – Sustainability Services
-04/2010 - 03/2015 
+**Consultant – Sustainability Services** (04/2010 - 03/2015)
 - Project Lead
 - Execution of SAP EHS / ESHM implementation projects
 - Scoping workshops and project assessments
 - Presales support
 - Execution of end-user trainings
 
+***
 
-## Certifications
+### Certifications
 - AWS certified Solution Architect - Associate
 - AWS certified Cloud Practitioner
  
+***
 
+### Education
 
-## Education
-### Geoecology / Ecosystem Management (Diploma)
+#### @ University of Tübingen
 
-10/2004 – 12/2009 / University of Tübingen, Germany
+**Geoecology / Ecosystem Management (Diploma)** (10/2004 – 12/2009)
 
 Diploma Thesis: &quot;Systematisation of the recording and evaluation of environmental aspects using the example of EADS Deutschland GmbH at Friedrichshafen site&quot;
  (EADS was renamed &#39;Airbus&#39; in 2013)
 
 Specialization: Environmental Management
  Final Grade: 1.4
+ 
+ ***
