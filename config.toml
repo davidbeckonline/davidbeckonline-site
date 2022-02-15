@@ -1,6 +1,6 @@
 baseURL = "http://davidbeck.online/"
 languageCode = "en-us"
-title = "davidbeck.online"
+title = "Web3-1 Blog"
 theme = "ananke"
 
 SectionPagesMenu = "main"
