@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://davidbeck.online/posts/2021-09-30_test-images/</loc>
-    <lastmod>2021-09-30T09:06:17+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://davidbeck.online/</loc>
-    <lastmod>2021-09-30T09:06:17+00:00</lastmod>
+    <lastmod>2022-02-19T09:03:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://davidbeck.online/posts/</loc>
+    <lastmod>2022-02-19T09:03:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2022-02_spiritual-letters/</loc>
+    <lastmod>2022-02-19T09:03:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2021-11-05_aws-certified/</loc>
+    <lastmod>2021-11-05T04:03:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/about/</loc>
+    <lastmod>2021-10-04T11:52:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/cv/</loc>
+    <lastmod>2021-10-04T11:52:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2021-10-01_rocket/</loc>
+    <lastmod>2021-10-01T04:05:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2021-10-01_show-your-stripes/</loc>
+    <lastmod>2021-10-01T04:03:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/2021-09-30_test-images/</loc>
     <lastmod>2021-09-30T09:06:17+00:00</lastmod>
   </url>
   
@@ -24,6 +54,10 @@
   
   <url>
     <loc>http://davidbeck.online/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://davidbeck.online/posts/contact/</loc>
   </url>
   
   <url>
