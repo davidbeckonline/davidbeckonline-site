@@ -1,5 +1,5 @@
 ---
-title: "Spiritual Letters Review"
+title: "Review - 'Spiritual Letters' "
 date: 2022-02-19T09:03:03Z
 draft: false
 
@@ -31,9 +31,15 @@ And how does he even get there? In the movie, the artist describes how he develo
 
 Besides house facades, we see the artist doing ground calligraphy. You can find examples via services, such as Google Maps. Here are a few examples:
 
+1/
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.1862660311281!2d13.442119529212047!3d52.50127861512735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc0a79669fc7d0b!2zNTLCsDMwJzA0LjYiTiAxM8KwMjYnMzMuNiJF!5e1!3m2!1sde!2sde!4v1645257768773!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
+2/
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.4248700288548!2d13.42424218828465!3d52.48840520283304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5228db7424c67e0c!2zNTLCsDI5JzE3LjkiTiAxM8KwMjUnMjguNSJF!5e1!3m2!1sde!2sde!4v1645258315203!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
 All of the actions across Germany's capital city Berlin are documented in detail and with spectacular drone footage. Apparently, a lot of this drone footage was taken by Mr. Paradox Paradise himself. In the movie, the artist mentions that he crashed drones worth about 25k EUR to learn this skill. We see him building and soldering his own razing drones, the so-called ‘Paradox Drone 3.0’. For me personally, this movie contains the most spectacular drone footage I have ever seen.
 
@@ -54,7 +60,7 @@ I would say that this film is as much about the art of Mr. Paradox Paradise as o
 
 > *“I paint for Freedom and Awareness”* (43’21)
 
-> **“Spread Love, not Fear”* (16’20)
+> *“Spread Love, not Fear”* (16’20)
 
 > *“Your Thoughts are the Architects of your Destiny”* (47’16)
 
@@ -71,7 +77,7 @@ I would say that this film is as much about the art of Mr. Paradox Paradise as o
 
 Referring to the last quote, the artist indicates that he found his peace in surfing. We see him - sometimes even with a mask on - shredding the waves of Costa Rica. It is fascinating to see how this contrast to the city life seems to relax him. The letters we see him painting on paper and walls in central america seem more rounded and fluid.
 
-That being said, Mr. Paradox Paradise also communicates beliefs which a general public would probably consider conspiracy theories. He believes in aliens and elements of the QAnon group. He points out so-called ‘truth seekers’ like ufologist Steven M. Greer and Author David Icke. According to Wikipedia, the ladder is accused of being antisemitic. I cannot judge this. At this point, I just want to make clear that I distance myself from any antisemetic ideas and holocoust denial.  
+That being said, Mr. Paradox Paradise also communicates beliefs which a general public would probably consider conspiracy theories. He believes in aliens and elements of the QAnon group. He points out so-called ‘truth seekers’ like ufologist [Steven M. Greer](https://en.wikipedia.org/wiki/Steven_M._Greer) and Author [David Icke](https://en.wikipedia.org/wiki/David_Icke). According to Wikipedia, the ladder is accused of being antisemitic. I cannot judge this. At this point, I just want to make clear that I distance myself from any antisemetic ideas and holocoust denial.  
 Mr. Paradox Paradise is self-thought. He is critical of the school system and would like to see children practicing meditation.
 
 What fascinated me about this movie and Mr. Paradox Paradise throughout this movie, is the immense accumulation of talent in one person. There is this radical artform itself - the painting and the abseil. But then we see him manipulating locks, where he is building his own tools. He customizes his own drones and performs drone flights which remind me of drone racing. And then there is the IT part. His phone looks as if it was encrypted with a custom android ROM. As previously mentioned, he directed and edited the movie. And that seems very professional to me. I really enjoyed how the pictures and the music works together. A list of all tracks is given at the end of this post. It is difficult for me to rate the difficulty of train and bus surfing, but Mr. Paradox Paradise's skateboarding and surfing skills are certainly outstanding. We see him performing a skateboard trick - might be an impossible flip - on a half-pipe shaped rooftop that most skaters will never be able to perform in a skatepark. He shapes and designs his own beautiful surfboards.
@@ -90,37 +96,71 @@ https://youtu.be/fcVClr2-fXg) on YouTube just recently. However, it felt ‘new�
 
 # Appendix
 
-## Music
 
-This is the list of the music played during the movie:
+### Artist Web Presence
+
+> Website: [Spiritual Letters](https://spiritual-letters.com/)
+
+> Twitter: [@paradox_letters](https://twitter.com/Paradox_Letters)
+
+> Instagram: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist ist most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instragram content to Twitter would at least make it more accessible.
+
+### Music
+
+This is the list of the music played during the movie in order of occurance:
 
 **Artist	- Song**
+
 Cut Glitch - Breeze
+
 Blue Foundation - Eyes on Fire
+
 Wdl - to the Sound
+
 Clozee - Low Signal
+
 Zack Hemsey - Slave
+
 Woodju - Journey
+
 Zack Hemsey - the Runner
+
 Woodju - Artefact 002
+
 Woodju - Just Stay
+
 Pretty Lights - Lost and Found
+
 The Glitch Mob - Go Light
+
 Sigur Ros - Saeglopur
+
 Amewu - Universelle
+
 K. Flay - Bad Things 
+
 Tender - Trouble
+
 Woodju - Quaoar
+
 Metaform - Goodbye Tonight
+
 Amfir - Snowfall
+
 20syl - Ongoing Thing
+
 Zack Hemsey - The Land of No Men
+
 Wooju X Mitya - Replay
+
 Swimm - Souvenir
+
 Sekuoia - Somewhere
+
 Gogopenguin - Kora
 
-## More Videos
+
+### More Videos
 
 This video is from French-German television station ARTE. It gives a very good overview of the movie. I would almost argue that it covers too much.
 
