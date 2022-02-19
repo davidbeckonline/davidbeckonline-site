@@ -1,6 +1,6 @@
 ---
 title: "Spiritual Letters Review"
-date: 2022-02-19T09:03:52Z
+date: 2022-02-19T08:03:52Z
 draft: false
 
 featured_image: "/images/2022-01_SL-01.jpg"
