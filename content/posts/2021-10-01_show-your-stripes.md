@@ -9,7 +9,7 @@ featured_image: "/images/2021-07-26_stripes_berlin.png"
 
 The recent weather extremes in Germany and other parts of the world reminded a lot a of people about climate change. I think that the #ShowYourStripes 
 
-<a href="Link">https://showyourstripes.info/</a>
+[Link to ShowYourStripes](https://showyourstripes.info/)
 
 is a beautiful but scary reminder of what is going on.
 #showyourstripes
