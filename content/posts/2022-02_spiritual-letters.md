@@ -32,14 +32,12 @@ And how does he even get there? In the movie, the artist describes how he develo
 Besides house facades, we see the artist doing ground calligraphy. You can find examples via services, such as Google Maps. Here are a few examples:
 
 1/
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.1862660311281!2d13.442119529212047!3d52.50127861512735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc0a79669fc7d0b!2zNTLCsDMwJzA0LjYiTiAxM8KwMjYnMzMuNiJF!5e1!3m2!1sde!2sde!4v1645257768773!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
 
 2/
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.4248700288548!2d13.42424218828465!3d52.48840520283304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5228db7424c67e0c!2zNTLCsDI5JzE3LjkiTiAxM8KwMjUnMjguNSJF!5e1!3m2!1sde!2sde!4v1645258315203!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
 
 All of the actions across Germany's capital city Berlin are documented in detail and with spectacular drone footage. Apparently, a lot of this drone footage was taken by Mr. Paradox Paradise himself. In the movie, the artist mentions that he crashed drones worth about 25k EUR to learn this skill. We see him building and soldering his own razing drones, the so-called ‘Paradox Drone 3.0’. For me personally, this movie contains the most spectacular drone footage I have ever seen.
 
