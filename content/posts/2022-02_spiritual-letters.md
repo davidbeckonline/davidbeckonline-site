@@ -29,13 +29,13 @@ On first sight, people might think that all of Mr. Paradox Paradise lettering lo
 Besides the letters itself, the 'where' and 'how' is an element of the art of Mr. Paradox Paradise. The locations are spectacular. Even if he was allowed to paint his art legally, it is breathtaking to see him abseil from rooftops - and even more spectacular a windmill. 
 And how does he even get there? In the movie, the artist describes how he developed the necessary skills to manipulate locks over many years.
 
-Besides house facades, we see the artist doing ground calligraphy. You can find examples via services, such as Google Maps. Here are a few examples:
+Besides house facades, we see the artist doing ground calligraphy. You can find some of these pieces on satellite images. Here are a two examples from Google Maps:
 
-1/
+1/ Oberbaumstraße & Bevernstraße (52°30'04.6"N 13°26'33.6"E)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.1862660311281!2d13.442119529212047!3d52.50127861512735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc0a79669fc7d0b!2zNTLCsDMwJzA0LjYiTiAxM8KwMjYnMzMuNiJF!5e1!3m2!1sde!2sde!4v1645257768773!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-2/
+2/ Kottbusser Damm & Urbanstraße (52°29'17.85"N 13°25'28.47"E)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.4248700288548!2d13.42424218828465!3d52.48840520283304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5228db7424c67e0c!2zNTLCsDI5JzE3LjkiTiAxM8KwMjUnMjguNSJF!5e1!3m2!1sde!2sde!4v1645258315203!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
@@ -50,7 +50,7 @@ Of course, most of the action we see is illegal. The face of the Mr. Paradox Par
 
 At the very beginning of the movie, Mr. Paradox Paradise states:
 
-> *“This lifestyle is my painkiller to the damage my soul has to carry.”* (1’15s)
+> ***“This lifestyle is my painkiller to the damage my soul has to carry.”*** (1’15s)
 
 And with that, he takes us with him on his spiritual journey.
 
@@ -90,18 +90,18 @@ With the content described above, it is obvious that freedom and anonymity are e
 I enjoyed this experiment. The user journey is rather complicated. I guess this is the reason why the artist also added a [video instruction](
 https://youtu.be/fcVClr2-fXg) on YouTube just recently. However, it felt ‘new’ for me and it fit well to the movie itself.
 
-=====
+---
 
 # Appendix
 
 
 ### Artist Web Presence
 
-> Website: [Spiritual Letters](https://spiritual-letters.com/)
+> **Website**: [Spiritual Letters](https://spiritual-letters.com/)
 
-> Twitter: [@paradox_letters](https://twitter.com/Paradox_Letters)
+> **Twitter**: [@paradox_letters](https://twitter.com/Paradox_Letters)
 
-> Instagram: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist ist most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instragram content to Twitter would at least make it more accessible.
+> **Instagram**: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist ist most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instragram content to Twitter would at least make it more accessible.
 
 ### Music
 
