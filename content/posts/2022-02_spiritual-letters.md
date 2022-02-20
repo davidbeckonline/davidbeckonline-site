@@ -14,7 +14,7 @@ As the title ‘Spiritual Letters’ indicates, this movie is about letters, but
 This is the movie trailer on YouTube.
 {{< youtube CvUb7qh7vnY >}}
 
-A different trailer is available on [spiritial-letter.com](https://spiritual-letters.com/).
+A different trailer is available on [spiritial-letters.com](https://spiritual-letters.com/).
 
 
 # LETTERS
