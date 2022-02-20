@@ -3,18 +3,18 @@ title: "Review - 'Spiritual Letters' "
 date: 2022-02-19T09:03:03Z
 draft: false
 
-featured_image: "/images/2022-01_SL-01.jpg"
+featured_image: "/images/2022-01-06_Paradox_Yorckstr_p.jpg"
 
 ---
 
 **I recently watched "Spiritual Letters - The Art of Mr. Paradox Paradise". That was an interesting experience on different levels.**
 
-As the movie title ‘Spiritual Letters’ indicates, this movie is about letters, but also about the spiritual journey of artist Mr. Paradox Paradise. Furthermore, this movie was my first application of crypto currencies and what some people call Web3. In this blog post I want to cover these three aspects in the given order.
+As the title ‘Spiritual Letters’ indicates, this movie is about letters, but also about the spiritual journey of artist Mr. Paradox Paradise. Furthermore, this movie was my first application of crypto currencies and what some people call Web3. In this blog post I want to cover these three aspects in the given order.
 
 This is the movie trailer on YouTube.
 {{< youtube CvUb7qh7vnY >}}
 
-A different trailer is available on the [spiritial-letter.com](https://spiritual-letters.com/) website.
+A different trailer is available on [spiritial-letter.com](https://spiritual-letters.com/).
 
 
 # LETTERS
@@ -98,7 +98,7 @@ For me personally, watching this movie was the first real application of Cryptoc
 4. Transfer BNB from Binance Exchange to your wallet.
 5. On the spiritual letters website, you connect the Metamask wallet with the website.
 6. Perform the donation.
-7. As soon as the transaction is confirmed on the blockchain, the trailer video on the website is replaced by the 72 minutes long movie.
+7. As soon as the transaction is confirmed on the blockchain, the trailer video on the website is replaced by the 72 minutes long movie. You might need to refresh the website.
 
 The user journey is rather complicated, but I really enjoyed this experiment. Just recently, the artist added a new [instruction video](
 https://youtu.be/fcVClr2-fXg) on YouTube, in order to make this process clearer. However, it mee, it was something new and I think that this experience fits very well to the movie itself.
@@ -115,6 +115,7 @@ https://youtu.be/fcVClr2-fXg) on YouTube, in order to make this process clearer.
 > **Twitter**: [@paradox_letters](https://twitter.com/Paradox_Letters)
 
 > **Instagram**: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist ist most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instragram content to Twitter would at least make it more accessible.
+
 
 ### Music
 
