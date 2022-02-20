@@ -3,7 +3,7 @@ title: "Review - 'Spiritual Letters' "
 date: 2022-02-19T09:03:03Z
 draft: false
 
-featured_image: "/images/2022-01-06_Paradox_Yorckstr_p.jpg"
+featured_image: "/images/2022-02-19_SL_R.jpg"
 
 ---
 
