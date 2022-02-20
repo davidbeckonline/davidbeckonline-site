@@ -20,7 +20,7 @@ A different trailer is available on [spiritial-letters.com](https://spiritual-le
 # LETTERS
 
 The movie 'Spiritual Letters’' was directed, edited, and is about Berlin based artist Mr. Paradox Paradise. It covers his work between 2018 and 2021. Originally a member of graffiti crew 'Berlin Kidz', Mr. Paradox Paradise became known for his Pichação style along house facades.
-Personally, I was never a fan of the mentioned [Pichação](https://en.wikipedia.org/wiki/Picha%C3%A7%C3%A3o) style. This graffiti style originated in Brazil and is typically very rough and angular. The style which Mr. Paradox Paradise developed is softer. The letters are floating. I like that much better. Below a photo I took at Yorckstraße.
+Personally, I was never a fan of the mentioned [Pichação](https://en.wikipedia.org/wiki/Picha%C3%A7%C3%A3o). This graffiti style originated in Brazil and is typically very rough and angular. The style which Mr. Paradox Paradise developed is softer. The letters are floating. I like that much better. Below a photo I took at Yorckstraße.
 
 ![paradix-yorckstr](/images/2022-01-06_Paradox_Yorckstr.jpg)
 
@@ -31,7 +31,7 @@ On first sight, people might think that all of Mr. Paradox Paradise lettering lo
 Besides the letters itself, the 'where' and 'how' is an important element of the art of Mr. Paradox Paradise. The locations are spectacular. Even if he was allowed to paint his art, it would still be breathtaking to see him abseil from rooftops - and even more from a windmill. 
 And how does he even get up there? In the movie, the artist describes how he developed the necessary skills to manipulate locks over many years.
 
-Besides spraying on house facades, we see the artist doing ground calligraphy. You can find some of these pieces on satellite images. Here are a two examples from Google Maps:
+Besides spraying on house facades, we see the artist doing ground calligraphy. You can find some of these pieces on satellite images. Here are two examples from Google Maps:
 
 1/ Oberbaumstraße & Bevernstraße (52°30'04.6"N 13°26'33.6"E)
 
@@ -56,7 +56,7 @@ At the very beginning of the movie, Mr. Paradox Paradise states:
 
 And with that, he takes us with him on his spiritual journey.
 
-I would say that this film is as much about the art of Mr. Paradox Paradise as of the personal development of the artist behind the mask. He sounds, as if he is exhausted by his own actions. But there are these messages that he wants us to read. While the capital letters PARADOX and PARADISE repeat, there are always accompanying messages. Mostly in written form, sometimes also symbolized by a figure, such as a dove. Here are few examples:
+I would say that this film is as much about the art of Mr. Paradox Paradise as of the personal development of the artist behind the mask. He sounds, as if he is exhausted by his own actions. But there are these messages that he wants us to read. While the letters PARADOX and PARADISE repeat, there are always accompanying messages. Mostly in written form, sometimes also symbolized by a figure, such as a dove. Here are few examples:
 
 > *“I paint for Freedom and Awareness”* (43’21)
 
@@ -68,40 +68,40 @@ I would say that this film is as much about the art of Mr. Paradox Paradise as o
 
 > *“Its hard to see the Truth for programmed People”* (68’50)
 
-> *“Paradise is not a Place, its a State Consciousness”* (48’)
+> *“Paradise is not a Place, its a State of Consciousness”* (48’)
 
 > *“Stars cant shine without Darkness”* (57'50)
 
 > *“I hope we find true Peace one Day”* (70’37)
 
 
-Referring to the last quote, the artist indicates that he found his peace in surfing. We see him - sometimes even with a mask on - shredding the waves of Costa Rica. It is fascinating to see how this contrast to the city life seems to relax him. The letters we see him painting on paper and walls in central america seem more rounded and fluid.
+Referring to the last quote, the artist indicates that he found his peace in surfing. We see him - sometimes even with a mask on - shredding the waves of Costa Rica. It is fascinating to see how this contrast to the city life relaxes him, which then converts to his art. The letters we see him painting on paper and walls in Central America seem more rounded and fluid.
 
 ![mr-p-p_colombe-gold](/images/colombe-gold.png)
 
-That being said, Mr. Paradox Paradise also communicates beliefs which a general public would probably consider conspiracy theories. He believes in aliens and elements of the QAnon group. He points out so-called ‘truth seekers’ like ufologist [Steven M. Greer](https://en.wikipedia.org/wiki/Steven_M._Greer) and Author [David Icke](https://en.wikipedia.org/wiki/David_Icke). According to Wikipedia, the ladder is accused of being antisemitic. I cannot judge this. At this point, I just want to make clear that I distance myself from any antisemetic ideas and holocoust denial.  
+That being said, Mr. Paradox Paradise also communicates beliefs which a general public would probably consider to be conspiracy theories. He believes in aliens and elements of the QAnon group. He points out so-called ‘truth seekers’ like ufologist [Steven M. Greer](https://en.wikipedia.org/wiki/Steven_M._Greer) and Author [David Icke](https://en.wikipedia.org/wiki/David_Icke). According to Wikipedia, the ladder is accused of being antisemitic. I cannot judge this. At this point, I just want to make clear that I distance myself from any antisemitic ideas and holocaust denial.  
 Mr. Paradox Paradise is self-thought. He is critical of the school system and would like to see children practicing meditation.
 
-What fascinated me about Mr. Paradox Paradise, is the immense accumulation of talent. There is this radical artform itself - the painting and the abseil. But then we see him manipulating locks, for which he is building his own tools. He customizes his own drones and performs drone flights which remind me of drone racing. And then there is the IT part. His phone looks as if it was encrypted with a custom android ROM. As previously mentioned, he directed and edited the movie. And that seems very professional to me. I really enjoyed how the pictures and the music works together. I have no idea how diificult train and bus surfing is, but Mr. Paradox Paradise's skateboarding and surfing skills are certainly above average. We see him performing a skateboard trick - might be an impossible flip - on a curved rooftop. Most skaters will never be able to perform this trick independet from the location. He also shapes and designs his own beautiful surfboards.
-That being said, he chose this artform and life. With this skill set he has, I am convinced that could also be successfull in 'normal' job.
+What fascinated me about Mr. Paradox Paradise, is the immense accumulation of talent. There is this radical artform itself - the painting and the abseil. But then we see him manipulating locks, for which he is building his own tools. He customizes his own drones and performs drone flights which remind me of drone racing. And then there is the IT part. His phone looks as if it was encrypted with a custom android ROM. As previously mentioned, he directed and edited the movie. And that seems very professional to me. I really enjoyed how the pictures and the music work together. I have no idea how difficult train and bus surfing is, but Mr. Paradox Paradise's skateboarding and surfing skills are certainly above average. We see him performing a skateboard trick - might be an impossible flip - on a curved rooftop. Most skaters will never be able to perform this trick independent from the location. He also shapes and designs his own beautiful surfboards.
+That being said, he chose this artform and life. With this skill set he has, I am convinced that could also be successful in 'normal' job.
 At the end of the film, Mr. Paradox Paradise mentions that he is now ready to sell his art in galleries. I hope he will find the peace that he is obviously looking for. Good luck.
 
 
 # CRYPTO
 
 With the content described above, it is obvious that freedom and anonymity are elemental for Mr. Paradox Paradise. In that spirit, the film is embedded in a Web3 experience. For now, the website is the only way to access the movie. But the artist seems to be working on a physical release as well. 
-For me personally, watching this movie was the first real application of Cryptocurrencies. The website spiritual-letters.com can be connected with a crypto wallet. Per recommendation of the website, I used Metamask for this purpose. A minimum donation of 0.04 BNB (about 14 EUR as of today) is required to watch the movie. Now BNB, short for Binance Coin, can only be purchased on crypto exchange Binance. So the process is as follows:
+For me personally, watching this movie was the first real application of Cryptocurrencies. The website spiritual-letters.com can be connected with a crypto wallet. Per recommendation of the website, I used Metamask for this purpose. A minimum donation of 0.04 BNB (about 14 EUR as of today) is required to watch the movie. Now BNB, short for Binance Coin, can only be purchased on crypto exchange Binance. So, the process is as follows:
 
 1. Get an account on Binance.
 2. Convert 'fiat money' to Binance Coin (BNB).
 3. Set up a Metamask wallet in your browser.
 4. Transfer BNB from Binance Exchange to your wallet.
-5. On the spiritual letters website, you connect the Metamask wallet with the website.
+5. On the spiritual-letters website, you connect the Metamask wallet with the website.
 6. Perform the donation.
 7. As soon as the transaction is confirmed on the blockchain, the trailer video on the website is replaced by the 72 minutes long movie. You might need to refresh the website.
 
 The user journey is rather complicated, but I really enjoyed this experiment. Just recently, the artist added a new [instruction video](
-https://youtu.be/fcVClr2-fXg) on YouTube, in order to make this process clearer. However, it mee, it was something new and I think that this experience fits very well to the movie itself.
+https://youtu.be/fcVClr2-fXg) on YouTube, in order to make this process clearer. However, for me, it was something new and I think that this experience fits very well to the movie itself.
 
 ---
 
@@ -114,7 +114,7 @@ https://youtu.be/fcVClr2-fXg) on YouTube, in order to make this process clearer.
 
 > **Twitter**: [@paradox_letters](https://twitter.com/Paradox_Letters)
 
-> **Instagram**: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist ist most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instragram content to Twitter would at least make it more accessible.
+> **Instagram**: [mr.paradox.paradise](https://www.instagram.com/mr.paradox.paradise) I think the artist is most active on Instagram, which is a remarkable choice. All products of 'Meta' are the definition of a 'walled garden'. It contradicts to the idea of freedom, in my opinion. If you do not have an account, you cannot check his content - at least not in detail. However, I learned that there are website which help to overcome this barrier. Just mirroring the Instagram content to Twitter would at least make it more accessible.
 
 
 ### Music
@@ -174,6 +174,6 @@ Gogopenguin - Kora
 
 ### More Videos
 
-This video is from French-German television station ARTE. It gives a very good overview of the movie. I would almost argue that it covers too much. The movie is probably better, if you have not seen this before. Therefore I am adding this to the very end of this blog post.
+This video is from French-German television station ARTE. It gives a very good overview of the movie. I would almost argue that it covers too much. The movie is probably better, if you have not seen this before. Therefore, I am adding this to the very end of this blog post.
 
 {{< youtube dlPhWbqyReE >}}
