@@ -177,3 +177,12 @@ Gogopenguin - Kora
 This video is from French-German television station ARTE. It gives a very good overview of the movie. I would almost argue that it covers too much. The movie is probably better, if you have not seen this before. Therefore, I am adding this to the very end of this blog post.
 
 {{< youtube dlPhWbqyReE >}}
+
+
+### Feedback
+
+I guess this is the best feedback I could ask for.
+
+{{< tweet 1495342926129508353 >}} 
+
+If you want to comment on this article, twitter might be a good way. [This tweet](https://twitter.com/davidbeckonline/status/1495328323102203908?s=20&t=LRJc84NZGaUTF0fg9a4ysg) would be the right spot.
