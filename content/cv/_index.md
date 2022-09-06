@@ -1,19 +1,19 @@
 ---
 title: "CV"
-date: 2021-10-04T11:52:05Z
+date: 2022-09-04T11:52:05Z
 draft: false
 
 featured_image: "/images/2021-07-23_img_hh.jpg"
 
 ---
 
-Status Nov 2021
+Status Aug 2022
 
 ![davidbeck_cv](/images/2019-12-03_re-invent_400px.png)
 
-I am a data-driven Program Manager with leadership experience who has a background in consulting, and programmatic advertising. Deconstructing and improving processes is one of my passions. A great interest in IT has accompanied my entire career.
+Ad Tech consultant with a background in IT program management. I enjoy learning new things, so I enjoy working together with clients and learning about their challenges. Ideally, I try to solve those - or at least help them walk in the right direction. I like to work with people and help them. 
 
-Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house. I am always up for something new. Just recently, our boys got me into skateboarding.
+Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house - and vinyl records.
 
 ***
 
@@ -21,9 +21,15 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 #### @ Amazon Advertising
 
-**Senior Program Manager** (05/2021 - present)
-- Structural analysis of the delivery in the Amazon DSP
-- Set up of new databases and KPIs and in cooperation with the BI team
+**Sr. Ad Tech Consultant** (since 02/2022)
+- train data analysts on Amazon Marketing Cloud (AMC) usage
+- run AMC workshops based on client requests
+- provide content on AMC (blog posts, training content, etc.)
+
+**Senior Program Manager - DSP Delivery** (05/2021 - 01/2022)
+- Lead for Amazon DSP delivery analysis from client and service org perspective
+- Set up of a new databases for delivery 
+- define KPIs in cooperation with the BI team
 
 **Program Manager - Advertising Services** (05/2020 - 04/2021)
 - Identification, structuring and addressing of structural problems of the service teams
