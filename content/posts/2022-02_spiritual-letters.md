@@ -183,6 +183,6 @@ This video is from French-German television station ARTE. It gives a very good o
 
 I guess this is the best feedback I could ask for.
 
-{{< tweet 1495342926129508353 >}} 
+{{< tweet user="Paradox_Letters" id="1495342926129508353" >}}
 
 If you want to comment on this article, twitter might be a good way. [This tweet](https://twitter.com/davidbeckonline/status/1495328323102203908?s=20&t=LRJc84NZGaUTF0fg9a4ysg) would be the right spot.
