@@ -3,8 +3,6 @@ title: "CV"
 date: 2022-09-04T11:52:05Z
 draft: false
 
-featured_image: "/images/2021-07-23_img_hh.jpg"
-
 ---
 
 Status Aug 2022
