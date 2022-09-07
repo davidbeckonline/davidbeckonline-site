@@ -1,11 +1,9 @@
 ---
-title: "davidbeck.online"
-
-description: "A personal blog."
+title: davidbeck.online
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/2021-07-23_img_hh.jpg'
   
 ---
 
-Welcome to my blog.
+Welcome to my personal blog.
