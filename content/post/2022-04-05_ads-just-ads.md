@@ -3,6 +3,8 @@ title: "Ads. Just ads. But still…"
 date: 2022-04-05T04:03:52Z
 draft: false
 
+featured_image: "/images/ad.jpg"
+
 ---
 
 In this post, I want to share a few thoughts about online advertising and my journey into this industry.
