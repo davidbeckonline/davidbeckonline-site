@@ -8,7 +8,11 @@ featured_image: "/images/2022-08_Bodensee/8_graph.png"
 
 ## Analyzing the level of Lake Bodensee with Python
 
-**In this post I want to discuss a data analysis experiment I recently ran. The goal was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I approached the analysis.**
+**In this post I want to discuss a data analysis experiment I recently ran. The goal was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, you will find a step by step guide showing how I approached the analysis.**
+
+A short summary of my outcomes can be found on Twitter.
+
+{{< tweet user="davidbeckonline" id="1561425516460052481" >}}
 
 ### Gaol
 
