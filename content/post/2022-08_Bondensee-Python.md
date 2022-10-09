@@ -12,7 +12,7 @@ featured_image: "/images/2022-08_Bodensee/8_graph.png"
 
 A short summary of my outcomes can be found on Twitter.
 
-{{< tweet user="davidbeckonline" id="1561425516460052481" >}}
+{{< tweet 1561425516460052481 >}}
 
 ### Gaol
 
