@@ -3,7 +3,7 @@ title: "Bodensee Level Analysis with Python"
 date: 2022-08-20T04:03:52Z
 draft: false
 
-featured_image: "/images/2022-08_Bodensee/8_graph.png"
+featured_image: "/images/2022-08_Bodensee/9_graph.png"
 ---
 
 ## Analyzing the level of Lake Bodensee with Python
