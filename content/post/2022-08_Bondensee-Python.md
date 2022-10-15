@@ -8,19 +8,25 @@ featured_image: "/images/2022-08_Bodensee/9_graph.png"
 
 ## Analyzing the level of Lake Bodensee with Python
 
-**In this post I want to discuss a data analysis experiment I recently ran. The goal was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I approached the analysis.**
+**In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.**
+
+A short summary of the output can also be found in this Twitter thread:
+
+{{< tweet 1561425516460052481 >}}
 
 ### Gaol
 
+In short: My goal is to recreate a graph showing the level of Lake Contanze (Bodensee).
+
 I like to dig into data. I enjoy questioning data. And I like data visualization. 
-A simple but interesting data visualization I really enjoy can be found on the [website]() Hochwasservorhersagezentrale
-Baden-Württemberg (HVZ BaWü). This is what is looks like:
+
+A simple but interesting data visualization I get back to again and again can be found on the [website](https://www.hvz.baden-wuerttemberg.de/pegel.html?id=) of *Hochwasservorhersagezentrale
+Baden-Württemberg* (HVZ BaWü). This is what is looks like:
 
 ![hvz-website](/images/2022-08_Bodensee/2022-08_hvz_website.jpg?classes=border)
 
 The graph shows the current level of Bodensee (Lake Constanze) as a blue line. Furthermore, it shows the long-term mean for each day (green line), the maximum value (red line), and minimum value (black line). *Long-term* in this case means that the values since year 1850 are considered (Update: They seem to have shortened the lookback window to time frame 1980 until 2021).
-
-My goal is to mimic this visual and adjust it a little bit to a few values that I am interested in.
+What I want to do is to re-create this graph in a first step. And then dive deeper into the data by looking into certain years or aspects.
 
 ### Setup
 
@@ -30,12 +36,16 @@ This was my first project with Jupyter Notebooks. But that experience was excell
 
 ### Data Analysis
 
+Please note that this was my first data analysis in Python of that kind. What I am doing here might not be efficient - and it is certainly not elegant. For this pet project, I simply aimed to get the results I wanted to get.
+
 #### Get source data
 
 The mentioned HVZ is a public institution and with that, the data is also publicly available. You can download the data from
 https://udo.lubw.baden-wuerttemberg.de/public/pages/home/welcome.xhtml
+
 Sorry, all in German.
-Select Wasser --> Oberflächengewässer --> Hydrologische Landespegel --> Hydrologische Landespegel (2x!)
+
+Select Wasser --> Oberflächengewässer --> Hydrologische Landespegel --> Hydrologische Landespegel (2x)
 
 ![lubw-selection](/images/2022-08_Bodensee/2022-08_lubw-website.jpg?classes=border)
 
@@ -46,13 +56,13 @@ On the next page, select
 * Produkt = Tagesmaximalwerte
 * Zeitraum = 01.01.1850 - 31.12.2022
 
-You can define a future date. You will get the data that is available.
+You can define a future date for 'Zeitraum'. The source will get you the data which is available.
 
-![lubw-result](/images/2022-08_Bodensee/2022-08_lubw_auswahl.jpg?classes=border)
+![lubw-auswahl](/images/2022-08_Bodensee/2022-08_lubw_auswahl.jpg?classes=border)
 
 Export the data. This is about 6 MB.
 
-![lubw-result](/images/2022-08_Bodensee/2022-08_lubw_export.jpg?classes=border)
+![lubw-result](/images/2022-08_Bodensee/2022-08_lubw-export.jpg?classes=border)
 
 #### Some data cleanup
 
@@ -161,7 +171,7 @@ Resulting in
 
 ***
 
-**5/ Reduce Data to the minimum**
+**5/ Reduce Data to the Minimum**
 
 Create a new dataset with a minimum of data to make things easier in the next couple of steps.
 
@@ -394,11 +404,11 @@ Now we know that the water level was lower than in 2022 in four occasions before
 * 1964
 This is in ascending order. 1949 saw the lowest value ever recorded on 08/05.
 
-It is important to note that there are five years > year 2000 in this (negative) Top10 list.
+It is important to note that there are five years after 2000 in this (negative) Top10 list.
 
 ***
 
-**12a/ Dive deeper into **
+**12a/ Dive deeper**
 
 Let us have a closer look at the 1949 data.
 
