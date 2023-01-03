@@ -8,7 +8,7 @@ SectionPagesMenu = "main"
 [params]
   description = "A simple Website for random stuff."
   twitter = "https://twitter.com/davidbeckonline"
-  mastodon = "https://home.social/@davidbeck"
+  mastodon = "https://hachyderm.io/@davidbeck"
   github = "https://github.com/davidbeckonline"
   linkedin = "https://www.linkedin.com/in/david-beck-31442743/"
   background_color_class = "bg-gray"
