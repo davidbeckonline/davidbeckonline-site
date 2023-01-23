@@ -71,7 +71,7 @@ David Beck (23.01.2023)
 
 ### Quellen
 
-#### 1/ Zeit.de (2022-10-15)
+#### 1/ zeit.de (2022-10-15)
 
 *“300 Millionen Euro Krankenkassenbeiträge für die Elektroschrott-Tonne”*
 [https://www.zeit.de/digital/2022-10/gematik-konnektor-arztpraxis-chaos-computer-club-krankenkassen/komplettansicht](https://www.zeit.de/digital/2022-10/gematik-konnektor-arztpraxis-chaos-computer-club-krankenkassen/komplettansicht)
@@ -83,13 +83,13 @@ David Beck (23.01.2023)
 [https://www.ccc.de/de/updates/2022/konnektoren-400-millionen-geschenk](https://www.ccc.de/de/updates/2022/konnektoren-400-millionen-geschenk)
 
 
-#### 3/ Heise.de (2023-01-06)
+#### 3/ heise.de (2023-01-06)
 
 *“Gematik stimmt Laufzeitverlängerung per Software-Update zu”*
 [https://www.heise.de/news/Gematik-stimmt-Laufzeitverlaengerung-im-Gesundheitswesen-per-Software-Update-zu-7435138.html](https://www.heise.de/news/Gematik-stimmt-Laufzeitverlaengerung-im-Gesundheitswesen-per-Software-Update-zu-7435138.html)
 
 
-#### 4/ Heise.de (2022-10-14)
+#### 4/ heise.de (2022-10-14)
 
 *“Gesundheitsnetz: CCC-Hacker entschlüsseln TI-Konnektor​ von CompuGroup Medical”*
 [https://www.heise.de/news/Gesundheitsnetz-CCC-Hacker-entschluesseln-TI-Konnektor-von-CompuGroup-Medical-7305512.html](https://www.heise.de/news/Gesundheitsnetz-CCC-Hacker-entschluesseln-TI-Konnektor-von-CompuGroup-Medical-7305512.html)
@@ -106,7 +106,7 @@ David Beck (23.01.2023)
 *“Stellungnahme zur Anhörung Digitale Identitäten”*
 [https://www.bundestag.de/resource/blob/901724/67441ef0b9ead7f9f09f15cc524226ad/Fluepke-Carl-Fabian-Luepke--data.pdf](https://www.bundestag.de/resource/blob/901724/67441ef0b9ead7f9f09f15cc524226ad/Fluepke-Carl-Fabian-Luepke--data.pdf)
 
-##### 7/ süddeutsche.de (2022-01-20)
+#### 7/ süddeutsche.de (2022-01-20)
 
 *"Bohrender Ärger: Warum Zahnärzten der Kragen platzt"*
 [https://www.sueddeutsche.de/wirtschaft/konnektoren-zahnaerzte-anzeige-1.5734874](https://www.sueddeutsche.de/wirtschaft/konnektoren-zahnaerzte-anzeige-1.5734874)
