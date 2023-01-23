@@ -1,6 +1,6 @@
 ---
 title: "Ordensanregung Flüpke"
-date: 2023-01-22T08:03:52Z
+date: 2023-01-23T13:03:52Z
 draft: false
 
 featured_image: "images/2023/2023-01_fluepke/ordernsanregung_no-text.png"
@@ -13,9 +13,9 @@ Das unten aufgeführte Schreiben habe ich an das Bundespräsidiallamt gerichtet.
 
 **Hiermit schlage ich, David Beck, Carl Fabian Lüpke aus Berlin für einen Verdienstorden vor. Durch seine ehrenamtliche Tätigkeit konnten die gesetzlichen Krankenkassen Millionen einsparen. Darüber hinaus werden Tonnen von Elektroschrott vermieden.**
 
-Im Folgenden werde ich auf die vorgeschlagene Person – Carl Fabian Lüpke – eingehen und ihre Verdienste in einem konkreten Fall beschreiben. Danach werde ich auf weitere Tätigkeiten von Lüpke und digitales Engagement im Allgemeinen eingehen. Daran anschließend, nenne ich Institutionen, welche zur Bewertung des Engagements weitere Informationen liefern können. Es folgt eine Auflistung externer Quellen.
+Im Folgenden werde ich auf die vorgeschlagene Person – Carl Fabian Lüpke – eingehen und ihre Verdienste in einem konkreten Fall beschreiben. Danach werde ich weitere Tätigkeiten von Lüpke und sein digitales Engagement im Allgemeinen darstellen. Daran anschließend, nenne ich Institutionen, welche zur Bewertung des Engagements weitere Informationen liefern können. Es folgt eine Auflistung externer Quellen.
 
-Ich reiche diese Anregung über das Onlineformular des Bundes ein. Dieses Formular erlaubt keine Formatierungen. Sie können den Text deshalb auch in formatierter Form online unter [davidbeck.online/post/2023-01_fluepke](https://www.davidbeck.online/post/2023-01_fluepke) finden.
+Ich reiche diese Anregung über das Onlineformular des Bundes ein. Dieses Formular erlaubt keine Formatierungen. Sie können den Text deshalb auch in formatierter Form online unter [davidbeck.online/post/2023-01_fluepke](https://www.davidbeck.online/post/2023-01_fluepke) (eben diese Website) finden.
 
 
 ### Flüpke
