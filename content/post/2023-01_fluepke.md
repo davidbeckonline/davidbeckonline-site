@@ -3,7 +3,7 @@ title: "Ordensanregung Flüpke"
 date: 2023-01-22T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-01_fluepke/ordernsanregung_text.png"
+featured_image: "images/2023/2023-01_fluepke/ordernsanregung_no-text.png"
 
 ---
 
@@ -15,7 +15,7 @@ Das unten aufgeführte Schreiben habe ich an das Bundespräsidiallamt gerichtet.
 
 Im Folgenden werde ich auf die vorgeschlagene Person – Carl Fabian Lüpke – eingehen und ihre Verdienste in einem konkreten Fall beschreiben. Danach werde ich auf weitere Tätigkeiten von Lüpke und digitales Engagement im Allgemeinen eingehen. Daran anschließend, nenne ich Institutionen, welche zur Bewertung des Engagements weitere Informationen liefern können. Es folgt eine Auflistung externer Quellen.
 
-Ich reiche diese Anregung über das Onlineformular des Bundes ein. Dieses Formular erlaubt keine Formatierungen. Sie können den Text deshalb auch in formatierter Form online unter XXX finden.
+Ich reiche diese Anregung über das Onlineformular des Bundes ein. Dieses Formular erlaubt keine Formatierungen. Sie können den Text deshalb auch in formatierter Form online unter [davidbeck.online/post/2023-01_fluepke](https://www.davidbeck.online/post/2023-01_fluepke) finden.
 
 
 ### Flüpke
@@ -34,7 +34,7 @@ In Deutschland sind etwa 130.000 Konnektoren im Einsatz. Ein Neugerät kostet et
 
 Ein Konnektor wiegt zwischen 600 und 900 Gramm. Bei der Gesamtzahl der Geräte ergibt sich demnach ein Gewicht von mehr als 100 Tonnen Elektroschrott.
 
-An dieser Stelle muss erwähnt werden, dass die drei Hersteller von Konnektoren (Name, Name, Name) das Thema unterschiedlich handhaben. Die Firma CGM - mit mehr als 50 Prozent Marktanteil der größte Hersteller von Konnektoren -  besteht auf den Hardwareaustausch. Die beiden anderen Firmen tauschen die genannten Zertifikate über ein günstiges Softwareupdate aus (1).
+An dieser Stelle muss erwähnt werden, dass die drei Hersteller von Konnektoren (Secunet Security Networks , CompuGroup Medical, Research Industrial Systems Engineering) das Thema unterschiedlich handhaben. Die Firma CompuGroup Medical (CGM) - mit mehr als 50 Prozent Marktanteil der größte Hersteller von Konnektoren -  besteht auf den Hardwareaustausch. Die beiden anderen Firmen tauschen die genannten Zertifikate über ein günstiges Softwareupdate aus (1).
 
 Flüpke eignete sich Wissen an, um sowohl die Hardware als auch die Software der Konnektoren zu verstehen. Er  konnte nachweisen, dass der Austausch der Geräte nicht notwendig ist, um die erwähnten Sicherheitszertifikate zu erneuern (4). Flüpke bestätigte einen Verdacht, der bereits im Raum stand, aber der Beweis noch fehlte. Ein großer Teil der Kosten und aller unnötiger Schrott ließen sich durch ein Software-Update vermeiden. Flüpke hat die hierfür notwendige Software in Zusammenarbeit mit Kollegen erstellt und kostenlos online veröffentlicht (https://github.com/Fluepke/konnektor-patch) (2).
 
