@@ -49,7 +49,7 @@ Das Engagement von Flüpke im digitalen Raum geht weit über die oben beschriebe
 
 Meiner Meinung nach ist Flüpkes ehrenamtlicher Einsatz ein ideales Beispiel für eine neue Form des sozialen Engagements – das Engagement im digitalen Raum. Die Arbeit in diesem Bereich ist komplex und für viele Menschen auch befremdlich. Mit voranschreitender Digitalisierung gewinnt diese Form des Engagements jedoch immer weiter an Bedeutung  und muss auch Anerkennung finden. Ich denke, eine Auszeichnung von Flüpke hätte eine Signalwirkung für unsere Gesellschaft.
 
-### Referenzpersonen und -organisationen.
+### Referenzpersonen und -organisationen
 
 Um die beschriebenen Tätigkeiten von Flüpke einschätzen und bewerten zu können, schlage ich folgende drei Organisationen vor: 1/ Chaos Computer Club 2/ Gematik GmbH 3/ Ausschuss für Digitales des Bundestags. Diese werden in diesem Abschnitt kurz beschrieben.
 
