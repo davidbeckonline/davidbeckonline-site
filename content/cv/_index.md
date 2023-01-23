@@ -9,9 +9,9 @@ Status Aug 2022
 
 ![davidbeck_cv](/images/2019-12-03_re-invent_400px.png)
 
-Ad Tech consultant with a background in IT program management. I enjoy learning new things, so I enjoy working together with clients and learning about their challenges. Ideally, I try to solve those - or at least help them walk in the right direction. I like to work with people and help them. 
+I am a data-driven Program Manager with leadership experience and a background in consulting, as well as programmatic advertising. Deconstructing and improving processes is one of my passions. A great interest in IT has determined my professional career.
 
-Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house - and vinyl records.
+Outside of work, the focus is on family. With two boys, we live outside of Berlin. I enjoy gardening and any sort of tinkering around our house. I am always up for something new. Just recently, our boys got me into skateboarding.
 
 ***
 
