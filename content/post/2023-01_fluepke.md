@@ -7,7 +7,7 @@ featured_image: "images/2023/2023-01_fluepke/ordernsanregung_no-text.png"
 
 ---
 
-Das unten aufgeführte Schreiben habe ich an das Bundespräsidiallamt gerichtet. Es handelt sich um eine [Ordensanregung](https://www.bundespraesident.de/DE/Amt-und-Aufgaben/Orden-und-Ehrungen/Verdienstorden/Ordensanregungen/Ordensanregungen-node.html). Diese habe ich am 2023-01-23 über das [Onlineformular](https://www.bundespraesident.de/DE/Amt-und-Aufgaben/Orden-und-Ehrungen/Verdienstorden/Ordensanregungen/Ordensanregungen-Formular-node.html) eingereicht.
+Das unten aufgeführte Schreiben habe ich an das Bundespräsidialamt gerichtet. Es handelt sich um eine [Ordensanregung](https://www.bundespraesident.de/DE/Amt-und-Aufgaben/Orden-und-Ehrungen/Verdienstorden/Ordensanregungen/Ordensanregungen-node.html). Diese habe ich am 23. Januar 2023 über das [Onlineformular](https://www.bundespraesident.de/DE/Amt-und-Aufgaben/Orden-und-Ehrungen/Verdienstorden/Ordensanregungen/Ordensanregungen-Formular-node.html) eingereicht.
 
 ***
 
