@@ -11,8 +11,7 @@ featured_image: "/images/2022-02-19_SL_R.jpg"
 
 As the title ‘Spiritual Letters’ indicates, this movie is about letters, but also about the spiritual journey of artist Mr. Paradox Paradise. Furthermore, this movie was my first application of crypto currencies and what some people call Web3. In this blog post I want to cover these three aspects in the given order.
 
-This is the movie trailer on YouTube.
-{{< youtube CvUb7qh7vnY >}}
+You can find the movie trailer on [YouTube - Spiritual Letters (2021) Trailer](https://www.youtube.com/watch?v=c9ko1HTHeYk).
 
 A different trailer is available on [spiritial-letters.com](https://spiritual-letters.com/).
 
@@ -33,13 +32,9 @@ And how does he even get up there? In the movie, the artist describes how he dev
 
 Besides spraying on house facades, we see the artist doing ground calligraphy. You can find some of these pieces on satellite images. Here are two examples from Google Maps:
 
-1/ Oberbaumstraße & Bevernstraße (52°30'04.6"N 13°26'33.6"E)
+1/ Oberbaumstraße & Bevernstraße (52°30'04.6"N 13°26'33.6"E - [Google Maps](https://www.google.com/maps/@52.501278,13.442667,160m/data=!3m1!1e3?hl=de))
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456.1862660311281!2d13.442119529212047!3d52.50127861512735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc0a79669fc7d0b!2zNTLCsDMwJzA0LjYiTiAxM8KwMjYnMzMuNiJF!5e1!3m2!1sde!2sde!4v1645257768773!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-2/ Kottbusser Damm & Urbanstraße (52°29'17.85"N 13°25'28.47"E)
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.4248700288548!2d13.42424218828465!3d52.48840520283304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5228db7424c67e0c!2zNTLCsDI5JzE3LjkiTiAxM8KwMjUnMjguNSJF!5e1!3m2!1sde!2sde!4v1645258315203!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+2/ Kottbusser Damm & Urbanstraße (52°29'17.85"N 13°25'28.47"E - [Google Maps](https://www.google.com/maps/@52.488306,13.424583,160m/data=!3m1!1e3?hl=de))
 
 All of the actions are documented in detail and with spectacular drone footage. Apparently, Mr. Paradox Paradise is doing most of the drone flights by himself. In the movie, the artist mentions that he crashed drones worth about 25k EUR to learn this skill. We see him building and soldering his own razing drones, once referred as ‘Paradox Drone 3.0’. For me personally, this movie contains the most spectacular drone footage I have ever seen.
 
@@ -176,13 +171,16 @@ Gogopenguin - Kora
 
 This video is from French-German television station ARTE. It gives a very good overview of the movie. I would almost argue that it covers too much. The movie is probably better, if you have not seen this before. Therefore, I am adding this to the very end of this blog post.
 
-{{< youtube dlPhWbqyReE >}}
+[Youtube: Graffiti-Film von PARADOX: Zwischen Lebensgefahr und Spiritualität | Arte TRACKS](https://www.youtube.com/watch?v=dlPhWbqyReE&t)
 
 
 ### Feedback
 
-I guess this is the best feedback I could ask for.
+[This tweet](https://twitter.com/Paradox_Letters/status/1495342926129508353?s=20&t=0-7wB2vJp4Zf0acJ6pkpvQ) is the best feedback I could ask for.
 
-{{< tweet 1495342926129508353 >}}
+@Paradox_Letters:
+> Thank you 
+@davidbeckonline
+ for this thorough review of the Spiritual Letters movie, you nail it! [...]
 
-If you want to comment on this article, twitter might be a good way. [This tweet](https://twitter.com/davidbeckonline/status/1495328323102203908?s=20&t=LRJc84NZGaUTF0fg9a4ysg) would be the right spot.
+If you want to comment on this article, twitter might be a good way. [This tweet](https://twitter.com/davidbeckonline/status/1495328323102203908) would be the right spot.

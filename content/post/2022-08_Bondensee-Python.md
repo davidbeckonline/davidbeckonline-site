@@ -10,9 +10,7 @@ featured_image: "/images/2022-08_Bodensee/9_graph.png"
 
 **In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.**
 
-A short summary of the output can also be found in this Twitter thread:
-
-{{< tweet 1561425516460052481 >}}
+A short summary of the output can also be found in this [Twitter thread](https://twitter.com/davidbeckonline/status/1561425516460052481?s=20&t=tjdtQ9vvWjj_az6sC_NQpQ):
 
 ### Gaol
 
