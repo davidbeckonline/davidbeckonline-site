@@ -28,17 +28,17 @@ As a first step, I removed the turntable and fixed the tonearm with a piece of w
 
 ![2023-03_fix_01.jpg](/images/2023/2023-03_debut-cable/2023-03_fix_01.jpg)
 
-Then I turned the record player upside down.
+Then I turned the record player (with the dusk cover) upside down.
 
 ![2023-03_fix_02.jpg](/images/2023/2023-03_debut-cable/2023-03_fix_02.jpg)
 
 Next step was to remove the protective plate on the bottom. These are only two screws. And I was surprised how litte content I would find behind the plate.
 
-Here is a more detailed view.
-
 ![2023-03_fix_03.jpg](/images/2023/2023-03_debut-cable/2023-03_fix_03.jpg)
 
 To get the cables back into the tonearm, I pulled one cable after another carefully back in. From the side, I was able to see how far I needed to pull.
+
+![2023-03_fix_04.jpg](/images/2023/2023-03_debut-cable/2023-03_fix_04.jpg)
 
 
 ### Done
