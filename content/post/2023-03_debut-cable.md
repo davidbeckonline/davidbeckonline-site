@@ -1,5 +1,5 @@
 ---
-title: "Pro-Ject Debut III - Cable Issue"
+title: "Pro-Ject Debut III - Fix Stylus Cables"
 date: 2023-03-27T08:03:52Z
 draft: false
 
@@ -9,7 +9,7 @@ featured_image: "images/2023/2023-03_debut-cable/2023-03_solution.jpg"
 
 # How to get the stylus cables back into the tonearm of a Pro-Ject Debut III record player
 
-**In this post, I decribe the small issue I was facing with the stylus cables on my ro-Ject Debut III record player.**
+**In this post, I decribe the small issue I was facing with the stylus cables on my Pro-Ject Debut III record player.**
 
 ### Situation
 
