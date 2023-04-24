@@ -3,7 +3,7 @@ title: "3D print to Epoxy Mat"
 date: 2023-04-21T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png"
+featured_image: "images/2023/2023-04_epoxy-mat/Epoxy_Final.png"
 
 ---
 
@@ -12,7 +12,7 @@ featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png"
 **This post describes my journey from 3D printing to a silicone mat for Epoxy upcycling.**
 
 For a short description of the project together with the 3D printing files, I recommend to check my GitHub repository on this subject:
-xxx
+https://github.com/davidbeckonline/epoxy_tool_mat
 
 ### What to do with Epoxy Remains
 
@@ -48,7 +48,11 @@ As mentioned before, I was not - and I am still not - able to justify the invest
 Next step was to convert the 3D print into a mat. So I converted the 3D print 'positive' into a silicone 'negative' for my Epoxy tools, I intended to create.
 
 As I learned, creating silicone objects seems to be quite a thing. There are a lot of tutorials on this topic - especially in combination with Epoxy.
-This was the first time for me working with such a silicone mix. But the handling of the two components was easy. I filled my 3D print with silicone and waited a couple of hours before I released the silicone from the 3D print with my fingers only. I did not use any release agent. Later on, I calculated that I used about 250g of silicone for my mat.
+This was the first time for me working with such a silicone mix. But the handling of the two components was easy. I filled my 3D print with silicone and waited a couple of hours before I released the silicone from the 3D print with my fingers only. I did not use any release agent. For the mat, about 270g of silicone were needed.
+
+![images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone-Prep.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone-Prep.png)
+
+![images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone.png)
 
 #### 4/ Upcycle Epoxy remains to tools
 
@@ -62,10 +66,13 @@ I was a little bit worried whether the epoxy would be easy to separate from the 
 
 So now I have some tools from epoxy remains. I will still need to test them. Having these tools in my hand, I got reminded how flexible epoxy tends to be. I forgot about that somehow. Honestly, I am not sure whether I will be able to use all of the tools, expecially the fine objects. But we will see. Overall, I am very happy with this project, as touched many new topics. I learned a lot. And it worked out. Not perfect. I have quite a few ideas on how to improve the mat. But it is a good start.
 
-![images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png)
-
 ![images/2023/2023-04_epoxy-mat/EpoxyMat_Mat-n-Tools.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Mat-n-Tools.png)
+
+
+![images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_bending.png)
 
 #### Buying or Building
 
-As always, such a project raises the question whether it was worth the efforts. Would it have been a wiser decision to simply buy the mat. I guess "yes". The Utility Mat is a better product. The tools seem more advanced. The whole mat is bigger. And the price seems okay. All the materials for my tiny silicone mat also summed up to about 50 EUR. But as there was no option to buy this product in Germany, building was the only - and fun - option.
+As always, such a project raises the question whether it was worth the efforts. Would it have been a wiser decision to simply buy the mat. I guess "yes". The Utility Mat is a better product. The tools seem more advanced. The whole mat is bigger. And the price seems okay. All the materials for my tiny silicone mat also summed up to about 50 EUR. But as there was no way to buy this product in Germany, building was the only - and fun - option.
+
+![images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png)
