@@ -13,28 +13,29 @@ featured_image: "images/2023/2023-02_magic-tonie/MagicTonie_Final.png"
 
 ### Magic Tonie
 
-First of all, I want to explain the term 'Magic Tonie', as I am not sure whether it really exists. It is a literal translation of the German word 'Zaubertonie'. The term describes the conversion of figures or other toys into a Tonie for a Tonie Box. Technically, such a Tonie is just a holder for an RFID chip. So what people do here is to extract the RFID chip from a Tonie figure and put it into another object. You could describe it as little 'hardware hack'. You might want to do this together with your kids - that is what I did.
-There are many descriptions on how to create Magic Tonies online. Therefore I will not dive into the details of every step.
+First of all, I want to explain the term 'Magic Tonie', as I am not sure whether it exists. It is a literal translation of the German word 'Zaubertonie'. The term describes the conversion of figures or other toys into a Tonie for a Tonie Box. Technically, such a Tonie is just a holder for an RFID chip. So what people do to create a Magic Tonie is to extract the RFID chip from a Tonie figure and put it into another object. You could describe it as little 'hardware hack'. You might want to do this together with your kids - this is what I did.
 
-### Extract the Chip
+There are many descriptions on how to create Magic Tonies online. Therefore I will not dive into the details.
+
+### Extract the chip
 
 First step is to get the RFID chip out of your Tonie without breaking it. This is the most difficult step. To soften the plastic, you expose the figure to heat. This can either be done in hot water or in the ofen. I used a knife to open the figure. The chip is located in the head.
-In my first attempt to create a Magic Tonie, I relied on a rather old Tonie figure. Extracting the chip from this figure was rather easy. The tonies produced over the last couple of years seem to have the chip glued into the figure. Not sure why this is necessary. In any case, it makes it much harder to remove the chip. I ended up peeling the chip out layer by layer.
+In my first attempt to create a Magic Tonie, I relied on an older Tonie figure. Extracting the chip from this older figure was much easier than from a newer one. The tonies produced over the last couple of years seem to have the chip glued into the figure. Not sure why this is necessary. In any case, it makes it much harder to remove the chip. I ended up peeling the chip out layer by layer.
 
 ![MagicTonie_Deconstruct.png](/images/2023/2023-02_magic-tonie/MagicTonie_Deconstruct.png)
 
-To be clear, extracting the chip is a messy step. And if you break the chip, this whole project can become quite expensive. I did break one of the chips, which means that I did cut into the copper coil. Not sure whether it is so hard to remove the chip. This might be intentional. Or it is just part of the manufacturing process.
+To be clear, extracting the chip is a messy step. And if you break the chip, this whole project can become quite expensive. I did break one of the chips, which means that I did cut into the copper coil. Not sure why they make it so hard to remove the chip. This might be intentional. Or it is just part of the manufacturing process.
 
-Extracting the magnets from the feed of the figure is much easier.
+Extracting the magnets from the feed of the figure is much easier. There are two of them. One in each food of the figure.
 
 After extracting the chip, you should definately test it. Ideally, the chip is placed three to four centimeters above the box.
 To test and store the chip, as well as the magnets, we built a prototype with lego.
 
 ![MagicTonie_prototype.png](/images/2023/2023-02_magic-tonie/MagicTonie_prototype.png)
 
-### Transform Daruma Doll
+### Transform Daruma doll
 
-We decided to convert a Japanese [Daruma doll](https://en.wikipedia.org/wiki/Daruma_doll) into a Magic Tonie. You can buy them at [MIYABI](https://origami-papier.eu/Daruma_3) for example.
+We decided to convert a Japanese [Daruma doll](https://en.wikipedia.org/wiki/Daruma_doll) into a Magic Tonie. You can buy them at [Miyabi](https://origami-papier.eu/Daruma_3) for example.
 
 The dolls are empty. In order to be able to put the chip into the figure, we decided to fill it with epoxy first. By the way, I wrote another blog post on how to [upcycle epoxy remains](https://www.davidbeck.online/post/2023-04_epoxy-mat/). 
 
@@ -54,5 +55,6 @@ I had underestimated the importance of the magnets initially. Kids walk around t
 Last step was to add content to our new Daruma Tonie. We decided to add a story which our son made up.
 
 Creating a Tonie is a nice hardware hack - especially with kids. Holding the RFID chip in their fingers and recognizing that this little thing is all that is needed to activate the content, was a fascinating eperience for them.
+Besides that, it was a multi-day project. So it never took very long to perform a step. But at the same time, the kids had to wait patiently until they had the final Magic Tonie in their hands. I think it was good for them to walk through this process bit by bit.
 
 ![MagicTonie_FInal.png](/images/2023/2023-02_magic-tonie/MagicTonie_Final.png)

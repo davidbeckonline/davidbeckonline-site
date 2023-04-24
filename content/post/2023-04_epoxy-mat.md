@@ -9,14 +9,14 @@ featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png"
 
 # How to turn Epoxy remains into tools
 
-**This post describes my journey from 3D printing to a silicone mat for Epoxy upcycling.**
+**This post describes my journey from 3D printing to a silicone mat for epoxy upcycling.**
 
 For a short description of the project together with the 3D printing files, I recommend to check my GitHub repository on this subject:
 https://github.com/davidbeckonline/epoxy_tool_mat
 
-### What to do with Epoxy Remains
+### What to do with epoxy remains
 
-Over the last couple of month, I tinkered quite a lot with Epoxy. It started with some [Kintsugi](https://en.wikipedia.org/wiki/Kintsugi) experiments. Later on, I worked on Magic Tonies, which are covered in a separate thread. The issue with Epoxy is that you always have to mix too much of it. You certainly do not want to run out of Epoxy while working. And for very small amount, it is difficult to get the right ratio of Resin and Hardener. This annoyed me, as over time, I threw more Epoxy into the trash can, as I actually used. Overall, I used about 500 ml of Epoxy over the last two years, to add a number to this.
+Over the last couple of month, I tinkered quite a lot with epoxy. It started with some [Kintsugi](https://en.wikipedia.org/wiki/Kintsugi) experiments. Later on, I worked on Magic Tonies, which are covered in a separate [ blog post](https://www.davidbeck.online/post/2023-02_magic-tonie/). The issue with epoxy is that you always have to mix too much of it. You certainly do not want to run out of epoxy while working. And for very small amount, it is difficult to get the right ratio of resin and hardener. This annoyed me, as over time, I threw more epoxy into the trash can, as I actually used. Overall, I used about 500 ml of epoxy over the last two years, to add a number to this.
 
 ### Experiment with 3D Printing
 
@@ -27,7 +27,7 @@ Thinking about this product and my use cases, I came up with the idea to use thi
 1. Design a negative for my mat as 3D object
 2. Test a 3D printing service
 3. Create a silicone mat
-4. Upcycle Epoxy remains to tools
+4. Upcycle epoxy remains to tools
 
 I will cover these steps one my one.
 
@@ -45,18 +45,18 @@ As mentioned before, I was not - and I am still not - able to justify the invest
 
 ### 3/ Create a silicone mat
 
-Next step was to convert the 3D print into a mat. So I converted the 3D print 'positive' into a silicone 'negative' for my Epoxy tools, I intended to create.
+Next step was to convert the 3D print into a mat. So I converted the 3D print 'positive' into a silicone 'negative' for my epoxy tools, I intended to create.
 
-As I learned, creating silicone objects seems to be quite a thing. There are a lot of tutorials on this topic - especially in combination with Epoxy.
+As I learned, creating silicone objects seems to be quite a thing. There are a lot of tutorials on this topic - especially in combination with epoxy.
 This was the first time for me working with such a silicone mix. But the handling of the two components was easy. I filled my 3D print with silicone and waited a couple of hours before I released the silicone from the 3D print with my fingers only. I did not use any release agent. For the mat, about 270g of silicone were needed.
 
 ![images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone-Prep.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone-Prep.png)
 
 ![images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Silicone.png)
 
-#### 4/ Upcycle Epoxy remains to tools
+#### 4/ Upcycle epoxy remains to tools
 
-Last step was to test the mat. Again, I had some remains of Epoxy which I did not need anymore. And I just pulled these remains into the mat. Distributing the Epoxy across the different compartments of the mat was a little bit more dirty then expected. But in hindsight, I probably would not have needed to do anything here. The Epoxy will distribute itself across the mat.
+Last step was to test the mat. Again, I had some remains of epoxy which I did not need anymore. And I just pulled these remains into the mat. Distributing the epoxy across the different compartments of the mat was a little bit more dirty then expected. But in hindsight, I probably would not have needed to do anything here. The epoxy will distribute itself across the mat.
 
 ![images/2023/2023-04_epoxy-mat/EpoxyMat_Distribute.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_Distribute.png)
 
