@@ -1,9 +1,9 @@
 ---
-title: "3D print to Epoxy Mat"
+title: "3D print to epoxy tool mat"
 date: 2023-04-21T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-04_epoxy-mat/Epoxy_Final.png"
+featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png"
 
 ---
 
@@ -39,7 +39,7 @@ First of all, I had no (and still have no) idea about 3D printing. Searching onl
 
 ### 2/ 3D Printing Service
 
-As mentioned before, I was not - and I am still not - able to justify the investment in a 3D printer. So I checked out three different 3D printing services. Prices varied heavily. It seems that "professional" 3D prints are very expensive. But at the same time, I recognized that there seem to be quite a few people out there who are willing to share their 3D printer for some cash. I ended up asking XX to print my file and I was really happy with the price (< 30 EUR incl. shipping - including some prints for my kids) and quality. That it was my first print. But the exchange was nice and the result did match my requirements.
+As mentioned before, I was not - and I am still not - able to justify the investment in a 3D printer. So I checked out three different 3D printing services. Prices varied heavily. It seems that "professional" 3D prints are very expensive. But at the same time, I recognized that there seem to be quite a few people out there who are willing to share their 3D printer for some cash. I ended up asking [k-3dsolutions](https://k-3dsolutions.de/) to print my file and I was really happy with the price (< 30 EUR incl. shipping - including some prints for my kids), quality. This was my first print, so I am not able to judge the quality. But the exchange was nice and the result did match my requirements and expectations.
 
 ![images/2023/2023-04_epoxy-mat/EpoxyMat_3D-print.png](/images/2023/2023-04_epoxy-mat/EpoxyMat_3D-print.png)
 
