@@ -15,7 +15,6 @@ SectionPagesMenu = "main"
   
   featured_image = "/images/2021-07-23_img_hh.jpg"
   
-  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

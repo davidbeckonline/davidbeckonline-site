@@ -7,3 +7,5 @@ cascade:
 ---
 
 Welcome to my personal blog.
+
+<a rel="me" href="https://hachyderm.io/@davidbeck"></a>
