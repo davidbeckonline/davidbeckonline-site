@@ -12,7 +12,7 @@ In this post I want to describe and highlight a funny DIY project named “Holzn
 
 ### Discovery
 
-While scrolling through the presentations of the 37. Chaos Communication Congress (37C3) online, I came across a talk about “Holznudel”. The title of the talk is [“analogue pixelprint with lego tiles and open source printing machines"](https://media.ccc.de/v/37c3-lightningtalks-58001-analogue-pixelprint-with-lego-tiles-and-open-source-printing-machines) by Alain Wohlfarth ([@handdrucksachen](https://mastodon.social/@handdrucksachen@typo.social) auf Mastodon).
+While scrolling through the presentations of the 37. Chaos Communication Congress (37C3) online, I came across a talk about “Holznudel”: [“analogue pixelprint with lego tiles and open source printing machines"](https://media.ccc.de/v/37c3-lightningtalks-58001-analogue-pixelprint-with-lego-tiles-and-open-source-printing-machines) by Alain Wohlfarth ([@handdrucksachen](https://mastodon.social/@handdrucksachen@typo.social) auf Mastodon).
 
 In this 3 minutes long video, Alain describes his DIY letterpress which relies on a pastry roller. In German, a pastry roller is often called “Nudelholz” (literal translation would be “pasta wood”). So, the name “Holznudel” (English „wood pasta“) is a pun. The project is inspired by the [Provisional Press](https://www.provisionalpress.com/).
 
