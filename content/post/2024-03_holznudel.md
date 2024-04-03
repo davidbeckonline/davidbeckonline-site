@@ -12,16 +12,16 @@ In this post I want to describe and highlight a funny DIY project named “Holzn
 
 ### Discovery
 
-While scrolling through the presentations of the 37. Chaos Communication Congress (37C3) online, I came across a talk about “Holznudel”. The title of the talk is “analogue pixelprint with lego tiles and open source printing machines” by Alain Wohlfarth. You can find it here:
-https://media.ccc.de/v/37c3-lightningtalks-58001-analogue-pixelprint-with-lego-tiles-and-open-source-printing-machines
-In this 3 minute long video, Alain describes his DIY letterpress which relies on a pastry roller. In German, a pastry roller is often called “Nudelholz” (literal translation would be “pasta wood”). So, the name “Holznudel” (English „wood pasta“) is a pun.
+While scrolling through the presentations of the 37. Chaos Communication Congress (37C3) online, I came across a talk about “Holznudel”. The title of the talk is [“analogue pixelprint with lego tiles and open source printing machines"](https://media.ccc.de/v/37c3-lightningtalks-58001-analogue-pixelprint-with-lego-tiles-and-open-source-printing-machines) by Alain Wohlfarth ([@handdrucksachen](https://mastodon.social/@handdrucksachen@typo.social) auf Mastodon).
+
+In this 3 minutes long video, Alain describes his DIY letterpress which relies on a pastry roller. In German, a pastry roller is often called “Nudelholz” (literal translation would be “pasta wood”). So, the name “Holznudel” (English „wood pasta“) is a pun. The project is inspired by the [Provisional Press](https://www.provisionalpress.com/).
 
 ### Construction
 
-You can find more information about this project on holznudel.de (which will actually redirect you to Alain’s online presence on https://handdrucksachen.de/37c3workshop/ ). On this website, you discover great examples for prints, as well as detailed instructions on how to build this wonderful little device.
-As I had never seen a Holznudel in real life, only pictures and videos online, I was lucky that Alain was willing to assist me on my construction journey. I did send him a lot of questions on Mastodon. You can find a long exchange between Alain and myself here:
+You can find more information about this project on [holznudel.de](https://www.holznudel.de) (which will actually redirect you to Alain’s online presence on https://handdrucksachen.de/37c3workshop/ ). On this website, you can discover great examples for prints, as well as detailed instructions on how to build this wonderful little device.
+As I had never seen a *Holznudel* in real life, only pictures and videos online, I was lucky that Alain was willing to assist me on my construction journey. I did send him a lot of questions on Mastodon. You can find a long exchange between Alain and myself here:
 https://hachyderm.io/@davidbeck/111947860492825001
-Once again, thank you very much for your help, Alain. And also, a great shout out to “Ostsee Opa” who helped us with his chop saw. 
+Once again, thank you very much for your help, Alain. And also, a great shout out to our *Ostsee Opa* who helped us with his chop saw. 
 
 While I ended up with a slightly adjusted construction, I don’t think it makes sense for me to discuss the construction in detail in this blog post. Alain’s website is the go-to resource for this. But let me add a couple of images, which might be helpful for people who aim to build their own *Holznudel*.
 
@@ -54,7 +54,7 @@ The bird you see here is a copy from a book named “Print & Play – de kunst v
 
 ### Cleaning
 
-One thing I learned is that the iFixit “Jimmy” is a very helpful tool to remove the dirty tiles from the base plate. You can find it here:
+One thing I learned is that the iFixit *Jimmy* is a very helpful tool to remove the dirty tiles from the base plate. You can find it here:
 https://store.ifixit.de/products/jimmy
 
 ![cleaning](/images/2024/2024-04_holznudel/IMG_7789.jpeg)
@@ -70,7 +70,6 @@ Needless to say that kids enjoy working with the Holznudel. It’s simple, but y
 
 We will certainly try more complex prints moving forward. With two or three colors.
 
-And I am wondering whether it could be fun to transition the construction of the Holznudel to a 3D print. Wood is a wonderful material. But when you have a lot of small pieces, it becomes a lot of effort. For some people, a 3D print might be easier to do.
-The base plate could remain wood, I think. It is the by far biggest piece in the construction. I would not change the IKEA pastry roller either. But the rest of the construction could be 3D printed, I think.
+And I am wondering whether it could be fun to transition the construction of the Holznudel to a 3D print. Wood is a wonderful material. But when you have a lot of small pieces, it becomes a lot of effort. Different sizes of screws are needed, for example. For some people, a 3D print might be easier to do. The base plate could remain wood, I think. It is the by far biggest piece in the construction. I would not change the IKEA pastry roller either. But the rest of the construction could be 3D printed, I think.
 
 We’ll see where this will take us. In any case, this was a fun non-IT project. Thank you Alain.
