@@ -1,14 +1,14 @@
 ---
 title: Contact
 omit_header_text: true
-description: I'd love to hear from you
+description: I would love to hear from you
 type: page
 menu: main
 
 ---
 
-Please use the form below, if you would like to reach out to me.
+If you want to you reach out, please send an email to:
 
-This intake form is powered by formspree. They are using cookies. Using this form will mean that cookies might get dropped. I am looking for an alternative right now.
+davidbeck.onlinecont.handcraft079@passmail.net
 
-{{< form-contact action="https://formspree.io/f/xgerqbdz"  >}}
+This is a (not so pretty) email alias, which replaces the intake form I used to have for this purpose. Down to zero cookies now.
