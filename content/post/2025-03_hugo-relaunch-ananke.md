@@ -3,7 +3,7 @@ title: "Hugo Relaunch"
 date: 2025-03-08T20:03:52Z
 draft: false
 
-featured_image: ""
+featured_image: "images/2025/2025-03_hugo_relaunch/hugo_19_web.png"
 ---
 
 ## Setting up Hugo with Ananke Theme as Module
