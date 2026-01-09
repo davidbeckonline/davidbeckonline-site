@@ -5,6 +5,15 @@ draft: false
 
 ---
 
+<style>
+.measure-wide {
+  text-align: left !important;
+}
+.tc-l {
+  text-align: left !important;
+}
+</style>
+
 Status Aug 2022
 
 ![davidbeck_cv](/images/2019/2019-12-03_re-invent_400px.png)
@@ -18,6 +27,8 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 ### Work Experience
 
 #### @ Amazon Advertising
+
+![Amazon Ads logo](/images/cv_amazon-ads_100px.png)
 
 **Sr. Ad Tech Consultant** (since 02/2022)
 - train data analysts on Amazon Marketing Cloud (AMC) usage
@@ -41,12 +52,16 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 #### @ Amazon
 
+![Amazon logo](/images/cv/cv_amazon_100px.png)
+
 **Marketing Manager - Social Advertising EU** (03/2016 - 07/2018)
 - Expert for social media tools and policies
 - Improvement of existing internal marketing applications
 - Budget planning and responsibility for social media activities across Europe ![](RackMultipart20211022-4-12bc9y9_html_9576b3335526579.png)
 
 #### @ SAP
+
+![SAP logo](/images/cv/cv_sap_100px.png)
 
 **Service Portfolio Manager for Sustainability Cloud** (04/2015 - 02/2016)
 - Identification, description, and evaluation of cloud services
@@ -72,6 +87,8 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 #### @ University of Tübingen
 
+![Uni Tübingen logo](/images/cv/cv_uni-tuebingen_100px.png)
+
 **Geoecology / Ecosystem Management (Diploma)** (10/2004 – 12/2009)
 
 Diploma Thesis: &quot;Systematisation of the recording and evaluation of environmental aspects using the example of EADS Deutschland GmbH at Friedrichshafen site&quot;
@@ -79,5 +96,3 @@ Diploma Thesis: &quot;Systematisation of the recording and evaluation of environ
 
 Specialization: Environmental Management
  Final Grade: 1.4
- 
- ***
