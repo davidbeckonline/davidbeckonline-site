@@ -12,6 +12,17 @@ SectionPagesMenu = "main"
   
   featured_image = "/images/2021/2021-07-23_img_hh.png"
   
+
+[params.ananke.social.follow]
+networks = [
+  "mastodon"
+]
+
+[params.ananke.social.mastodon]
+  username = "davidbeck"
+  profilelink  = "https://hachyderm.io/@davidbeck"
+  
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
