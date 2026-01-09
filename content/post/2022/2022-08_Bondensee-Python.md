@@ -3,7 +3,7 @@ title: "Bodensee Level Analysis with Python"
 date: 2022-08-20T04:03:52Z
 draft: false
 
-featured_image: "/images/2022-08_Bodensee/9_graph.png"
+featured_image: "/images/2022/2022-08_Bodensee/9_graph.png"
 ---
 
 ## Analyzing the level of Lake Bodensee with Python
@@ -21,7 +21,7 @@ I like to dig into data. I enjoy questioning data. And I like data visualization
 A simple but interesting data visualization I get back to again and again can be found on the [website](https://www.hvz.baden-wuerttemberg.de/pegel.html?id=) of *Hochwasservorhersagezentrale
 Baden-Württemberg* (HVZ BaWü). This is what is looks like:
 
-![hvz-website](/images/2022-08_Bodensee/2022-08_hvz_website.jpg?classes=border)
+![hvz-website](/images/2022/2022-08_Bodensee/2022-08_hvz_website.jpg?classes=border)
 
 The graph shows the current level of Bodensee (Lake Constanze) as a blue line. Furthermore, it shows the long-term mean for each day (green line), the maximum value (red line), and minimum value (black line). *Long-term* in this case means that the values since year 1850 are considered (Update: They seem to have shortened the lookback window to time frame 1980 until 2021).
 What I want to do is to re-create this graph in a first step. And then dive deeper into the data by looking into certain years or aspects.
@@ -45,7 +45,7 @@ Sorry, all in German.
 
 Select Wasser --> Oberflächengewässer --> Hydrologische Landespegel --> Hydrologische Landespegel (2x)
 
-![lubw-selection](/images/2022-08_Bodensee/2022-08_lubw-website.jpg?classes=border)
+![lubw-selection](/images/2022/2022-08_Bodensee/2022-08_lubw-website.jpg?classes=border)
 
 On the next page, select
 * Gewässer = Bodensee
@@ -56,17 +56,17 @@ On the next page, select
 
 You can define a future date for 'Zeitraum'. The source will get you the data which is available.
 
-![lubw-auswahl](/images/2022-08_Bodensee/2022-08_lubw_auswahl.jpg?classes=border)
+![lubw-auswahl](/images/2022/2022-08_Bodensee/2022-08_lubw_auswahl.jpg?classes=border)
 
 Export the data. This is about 6 MB.
 
-![lubw-result](/images/2022-08_Bodensee/2022-08_lubw-export.jpg?classes=border)
+![lubw-result](/images/2022/2022-08_Bodensee/2022-08_lubw-export.jpg?classes=border)
 
 #### Some data cleanup
 
 The output file needs some tweaks.
 
-![lubw-csv](/images/2022-08_Bodensee/2022-08_csv.jpg?classes=border)
+![lubw-csv](/images/2022/2022-08_Bodensee/2022-08_csv.jpg?classes=border)
 
 This is what I did
 * rows 1 - 6 contain the metadata - I removed this
@@ -107,7 +107,7 @@ print(df.head())
 
 Resulting in
 
-![results-step-2](/images/2022-08_Bodensee/2_results.jpg)
+![results-step-2](/images/2022/2022-08_Bodensee/2_results.jpg)
 
 ***
 
@@ -134,7 +134,7 @@ print(df.head())
 
 Resulting in
 
-![results-step-3](/images/2022-08_Bodensee/3_results.jpg)
+![results-step-3](/images/2022/2022-08_Bodensee/3_results.jpg)
 
 ***
 
@@ -165,7 +165,7 @@ print(df.head())
 
 Resulting in
 
-![results-step-4](/images/2022-08_Bodensee/4_results.jpg)
+![results-step-4](/images/2022/2022-08_Bodensee/4_results.jpg)
 
 ***
 
@@ -183,7 +183,7 @@ dfs.head()
 
 Resulting in
 
-![results-step-5](/images/2022-08_Bodensee/5_results.jpg)
+![results-step-5](/images/2022/2022-08_Bodensee/5_results.jpg)
 
 ***
 
@@ -228,7 +228,7 @@ df_mmm.head()
 
 Resulting in
 
-![results-step-7](/images/2022-08_Bodensee/7_results.jpg)
+![results-step-7](/images/2022/2022-08_Bodensee/7_results.jpg)
 
 ***
 
@@ -245,7 +245,7 @@ df_mmm.head()
 ```
 Resulting in
 
-![results-step-8](/images/2022-08_Bodensee/8_results.jpg)
+![results-step-8](/images/2022/2022-08_Bodensee/8_results.jpg)
 
 ***
 
@@ -280,7 +280,7 @@ plt.show()
 
 Resulting in
 
-![graph-step-9](/images/2022-08_Bodensee/9_graph.png)
+![graph-step-9](/images/2022/2022-08_Bodensee/9_graph.png)
 
 This looks all-right.
 
@@ -312,7 +312,7 @@ dfs2022.head()
 
 Resulting in
 
-![results-step-10_01](/images/2022-08_Bodensee/10_results_01.jpg)
+![results-step-10_01](/images/2022/2022-08_Bodensee/10_results_01.jpg)
 
 
 ```python
@@ -324,7 +324,7 @@ df_mmm_2022.head()
 
 Resulting in
 
-![results-step-10_02](/images/2022-08_Bodensee/10_results_02.jpg)
+![results-step-10_02](/images/2022/2022-08_Bodensee/10_results_02.jpg)
 
 
 Visualize the data.
@@ -355,7 +355,7 @@ plt.show()
 
 Resulting in
 
-![graph-step-10](/images/2022-08_Bodensee/10_graph.png)
+![graph-step-10](/images/2022/2022-08_Bodensee/10_graph.png)
 
 ***
 
@@ -380,7 +380,7 @@ dfs_min.head()
 
 Resulting in
 
-![results-step-11_01](/images/2022-08_Bodensee/11_results_01.jpg)
+![results-step-11_01](/images/2022/2022-08_Bodensee/11_results_01.jpg)
 
 Now this data needs to be sorted.
 
@@ -393,7 +393,7 @@ dfs_min.head(10)
 
 Resulting in
 
-![results-step-11_02](/images/2022-08_Bodensee/11_results_02.jpg)
+![results-step-11_02](/images/2022/2022-08_Bodensee/11_results_02.jpg)
 
 Now we know that the water level was lower than in 2022 in four occasions before: 
 * 1949
@@ -430,7 +430,7 @@ dfs1949.head()
 
 Resulting in
 
-![results-step-12_01](/images/2022-08_Bodensee/12_results_01.jpg)
+![results-step-12_01](/images/2022/2022-08_Bodensee/12_results_01.jpg)
 
 ```python
 # merge the 1949 data to the dataframe created for 2022
@@ -442,7 +442,7 @@ df_mmm_1949.head()
 
 Resulting in
 
-![results-step-12_02](/images/2022-08_Bodensee/12_results_02.jpg)
+![results-step-12_02](/images/2022/2022-08_Bodensee/12_results_02.jpg)
 
 Create a visualization
 
@@ -471,7 +471,7 @@ plt.show()
 
 Resulting in
 
-![graph-step-12](/images/2022-08_Bodensee/12_graph.png)
+![graph-step-12](/images/2022/2022-08_Bodensee/12_graph.png)
 
 
 **12b/ Zoom in summer 1949**
@@ -495,7 +495,7 @@ df_mmm_1949_zoom.head()
 
 Resulting in
 
-![results-step-12_03](/images/2022-08_Bodensee/12_results_03.jpg)
+![results-step-12_03](/images/2022/2022-08_Bodensee/12_results_03.jpg)
 
 Probably good to check the number of entries.
 
@@ -538,7 +538,7 @@ plt.show()
 
 Resulting in
 
-![graph-step-12_2](/images/2022-08_Bodensee/12_graph_02.png)
+![graph-step-12_2](/images/2022/2022-08_Bodensee/12_graph_02.png)
 
 
 ***
@@ -578,7 +578,7 @@ dfs_max
 
 Resulting in
 
-![results-step-13_01](/images/2022-08_Bodensee/13_results_01.jpg)
+![results-step-13_01](/images/2022/2022-08_Bodensee/13_results_01.jpg)
 
 The answer is 1890.
 Now we want to see what that year looked like.
@@ -603,7 +603,7 @@ dfs1890.head()
 
 Resulting in
 
-![results-step-13_02](/images/2022-08_Bodensee/13_results_02.jpg)
+![results-step-13_02](/images/2022/2022-08_Bodensee/13_results_02.jpg)
 
 Merge the data.
 
@@ -616,7 +616,7 @@ dfs_mmm_1890.head()
 
 Resulting in
 
-![results-step-13_03](/images/2022-08_Bodensee/13_results_03.jpg)
+![results-step-13_03](/images/2022/2022-08_Bodensee/13_results_03.jpg)
 
 And now we visualize
 
@@ -645,7 +645,7 @@ plt.show()
 
 Resulting in
 
-![graph-step-13](/images/2022-08_Bodensee/13_graph.png)
+![graph-step-13](/images/2022/2022-08_Bodensee/13_graph.png)
 
 ***
 
@@ -676,7 +676,7 @@ dfs1999.head()
 
 Resulting in
 
-![results-step-14_01](/images/2022-08_Bodensee/14_results_01.jpg)
+![results-step-14_01](/images/2022/2022-08_Bodensee/14_results_01.jpg)
 
 ```python
 dfs_1890_1999 = pd.merge(dfs1890, dfs1999, how="left", on="mm_dd")
@@ -688,7 +688,7 @@ dfs_1890_1999.head()
 
 Resulting in
 
-![results-step-14_02](/images/2022-08_Bodensee/14_results_02.jpg)
+![results-step-14_02](/images/2022/2022-08_Bodensee/14_results_02.jpg)
 
 ```python
 dfs_mmm_1890_1999 = pd.merge(dfs_1890_1999, df_mmm, how="left", on="mm_dd")
@@ -699,7 +699,7 @@ dfs_mmm_1890_1999.head()
 
 Resulting in
 
-![results-step-14_03](/images/2022-08_Bodensee/14_results_03.jpg)
+![results-step-14_03](/images/2022/2022-08_Bodensee/14_results_03.jpg)
 
 And visualization again
 
@@ -728,4 +728,4 @@ plt.show()#
 
 Resulting in
 
-![graph-step-14](/images/2022-08_Bodensee/14_graph.png)
+![graph-step-14](/images/2022/2022-08_Bodensee/14_graph.png)

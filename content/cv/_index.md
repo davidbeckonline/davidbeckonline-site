@@ -7,7 +7,7 @@ draft: false
 
 Status Aug 2022
 
-![davidbeck_cv](/images/2019-12-03_re-invent_400px.png)
+![davidbeck_cv](/images/2019/2019-12-03_re-invent_400px.png)
 
 I am a data-driven Program Manager with leadership experience and a background in consulting, as well as programmatic advertising. Deconstructing and improving processes is one of my passions. A great interest in IT has determined my professional career.
 

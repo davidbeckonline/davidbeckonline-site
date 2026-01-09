@@ -3,7 +3,7 @@ title: "Ads. Just ads. But still…"
 date: 2022-04-05T04:03:52Z
 draft: false
 
-featured_image: "/images/ad.jpg"
+featured_image: "/images/2022/ad.jpg"
 
 ---
 
@@ -17,7 +17,7 @@ In Q4 last year, during my parental leave, I started to look for a new role. And
 
 **Stay.** I had coffee chats and message exchanges with different people in our company. Eventually, I met with my former manager Sean and talked with him about my situation, opportunities, but also about doubts I had. Sean has this skill of making incredibly complex situations look simple. He deconstructs problems. Things feel easier after conversations with him. What he said to me, was basically this:
 
->> *"David, do not forget how risk accepting this industry is. After all, it is just ads. We are not saving anyone's life. With this, people in this industry are willing to take a lot of risk. We can move fast. We can experiment. Other industries are very different with that regards."*
+> *"David, do not forget how risk accepting this industry is. After all, it is just ads. We are not saving anyone's life. With this, people in this industry are willing to take a lot of risk. We can move fast. We can experiment. Other industries are very different with that regards."*
 
 This conversation stayed with me, and ultimately led to my decision to stay in the digital advertising tech environment.
 It is true, it's just about ads. And I guess this is part of the struggle, but also part of the fun I had over the last couple of years. This industry is very open to people with different backgrounds. You can be creative, but you can also go down endless data rabbit holes. You can work on processes or try to understand the underlying IT. People in this industry tend to be open to new and bold ideas. I experienced mostly flat hierarchies and a diverse workforce.
@@ -27,6 +27,6 @@ But this is probably okay. It's just ads. Ads can help you to think about health
 **Fascination.** I decided to keep working in the digital advertising technology space. Will I stick to this industry for the rest of my career? I don't know. Maybe. Maybe not. At some point, something new will attract me, I guess. But for now, I am fascinated by this industry. This is probably because digital advertising condenses 30 years of web development. Ads grew along with the web. Ads financed the web as we know it. The web as I love it - with all of its weirdness. With the great exception of Wikipedia, I cannot think of much free content and tools which are not subsidized by ads. Do you remember the time when one click on the ‘wrong’ website would result in a fleet of pop-up windows challenging your clicking skills? Or these surprising search bars that occurred all of a sudden after Windows 98 had decided to freeze? And the time when the 'ad stop' plugin looked like the rescue for everything? Along with the internet, ad tech developed. There is real money in this business. Companies do not want to pay for bot traffic. And there are bad actors in this game, that is for sure. Advertisers want to measure the impact of your activities. Ads should be displayed in a 'safe' environment. And if you talk about 'safe', you are in the middle of a conversation about cultural differences and preferences (think freedom of speech). The web and with that online advertising concentrated, because that seemed to solve problems. And with concentration, there are now players who look to diversify (insert Web3 hashtag here).
 Do I understand ad-tech? No. Simple as that. Referring to analyst [Benedict Evans](https://twitter.com/benedictevans),
 
->> *“Online advertising is worth $300bn, and yet almost no-one that doesn't work on an ad team really understands much of it.”* 
+> *“Online advertising is worth $300bn, and yet almost no-one that doesn't work on an ad team really understands much of it.”* 
 
 I would argue that only very few people IN the industry really understand it end to end. In order to get ad-tech, you would need to understand 30 years of web development, the jungle, as well as the walled gardens. It's just too much - with too many regional flavors. But of course, there are more and less knowledgeable people in this field. I am working to be part of the latter and look forward to seeing how things develop. Like the Internet itself, this industry is in a state of constant change.

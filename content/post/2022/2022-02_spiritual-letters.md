@@ -3,7 +3,7 @@ title: "Review - 'Spiritual Letters' "
 date: 2022-02-19T09:03:03Z
 draft: false
 
-featured_image: "/images/2022-02-19_SL_R.jpg"
+featured_image: "/images/2022/2022-02-19_SL_R.jpg"
 
 ---
 
@@ -21,11 +21,11 @@ A different trailer is available on [spiritial-letters.com](https://spiritual-le
 The movie 'Spiritual Letters’' was directed, edited, and is about Berlin based artist Mr. Paradox Paradise. It covers his work between 2018 and 2021. Originally a member of graffiti crew 'Berlin Kidz', Mr. Paradox Paradise became known for his Pichação style along house facades.
 Personally, I was never a fan of the mentioned [Pichação](https://en.wikipedia.org/wiki/Picha%C3%A7%C3%A3o). This graffiti style originated in Brazil and is typically very rough and angular. The style which Mr. Paradox Paradise developed is softer. The letters are floating. I like that much better. Below a photo I took at Yorckstraße.
 
-![paradix-yorckstr](/images/2022-01-06_Paradox_Yorckstr.jpg)
+![paradix-yorckstr](/images/2022/2022-01-06_Paradox_Yorckstr.jpg)
 
 On first sight, people might think that all of Mr. Paradox Paradise lettering looks the same. And yes, there are repeating elements. On the house facades, the letters are usually blue and red in color. The words are 'Paradox' and 'Paradise'. These letters are typically supplemented by little messages, to which we will get later in this article. Despite the repetitiveness of the words, it is important to note that every letter is unique. Below a collection of letter "R" taken from different pieces.
 
-![mr-paradox-paradise-r](/images/2022-02-19_SL_R.jpg)
+![mr-paradox-paradise-r](/images/2022/2022-02-19_SL_R.jpg)
 
 Besides the letters itself, the 'where' and 'how' is an important element of the art of Mr. Paradox Paradise. The locations are spectacular. Even if he was allowed to paint his art, it would still be breathtaking to see him abseil from rooftops - and even more from a windmill. 
 And how does he even get up there? In the movie, the artist describes how he developed the necessary skills to manipulate locks over many years.
@@ -72,7 +72,7 @@ I would say that this film is as much about the art of Mr. Paradox Paradise as o
 
 Referring to the last quote, the artist indicates that he found his peace in surfing. We see him - sometimes even with a mask on - shredding the waves of Costa Rica. It is fascinating to see how this contrast to the city life relaxes him, which then converts to his art. The letters we see him painting on paper and walls in Central America seem more rounded and fluid.
 
-![mr-p-p_colombe-gold](/images/colombe-gold.png)
+![mr-p-p_colombe-gold](/images/2022/colombe-gold.png)
 
 That being said, Mr. Paradox Paradise also communicates beliefs which a general public would probably consider to be conspiracy theories. He believes in aliens and elements of the QAnon group. He points out so-called ‘truth seekers’ like ufologist [Steven M. Greer](https://en.wikipedia.org/wiki/Steven_M._Greer) and Author [David Icke](https://en.wikipedia.org/wiki/David_Icke). According to Wikipedia, the ladder is accused of being antisemitic. I cannot judge this. At this point, I just want to make clear that I distance myself from any antisemitic ideas and holocaust denial.  
 Mr. Paradox Paradise is self-thought. He is critical of the school system and would like to see children practicing meditation.
