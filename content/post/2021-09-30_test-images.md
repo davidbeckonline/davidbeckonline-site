@@ -3,7 +3,7 @@ title: "2021 09 30_test Images"
 date: 2021-09-30T09:06:17Z
 draft: true
 
-featured_image: "/images/2021-07-23_img_hh.jpg"
+featured_image: "/images/2021-07-23_img_hh.png"
 
 ---
 

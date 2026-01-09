@@ -10,7 +10,7 @@ SectionPagesMenu = "main"
   background_color_class = "bg-gray"
   recent_posts_number = 10
   
-  featured_image = "/images/2021-07-23_img_hh.jpg"
+  featured_image = "/images/2021-07-23_img_hh.png"
   
 [markup]
   [markup.goldmark]
