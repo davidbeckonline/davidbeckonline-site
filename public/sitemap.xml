@@ -3,15 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-04-02T18:03:52+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/2024-03_holznudel/</loc>
-    <lastmod>2024-04-02T18:03:52+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/2025-03_hugo-relaunch-ananke/</loc>
-    <lastmod>2024-04-02T18:03:52+00:00</lastmod>
+    <lastmod>2025-12-10T20:03:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-10T20:03:52+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2025-12_thisisforeveryone_meta/</loc>
+    <lastmod>2025-12-10T20:03:52+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2025-03_hugo-relaunch-ananke/</loc>
+    <lastmod>2025-03-08T20:03:52+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2024-03_holznudel/</loc>
     <lastmod>2024-04-02T18:03:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/2024-02_mastodon-verification/</loc>
@@ -58,6 +61,9 @@
   </url><url>
     <loc>http://localhost:1313/post/2021-09-30_hello-world/</loc>
     <lastmod>2021-09-30T08:36:13+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/2009-09-07_chili/</loc>
+    <lastmod>2009-09-07T20:46:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
