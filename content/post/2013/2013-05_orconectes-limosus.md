@@ -4,7 +4,7 @@ date: 2013-05-12T20:37:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 ---
-*This post was originally published on d1db3k.blogspot.com on 2013-05-12. I migrated this post in January 2026.*
+*This post was originally published on d1db3k.blogspot.com on 2013-05-12. I migrated this post in January 2026. I need to check whether I can recover the original video.*
 
 ---
 
@@ -20,10 +20,10 @@ To avoid misunderstandings: "No Animals Were Harmed in the Making of This Film".
 
 This also applies to myself.
 
-# [Orconectes limosus](http://de.wikipedia.org/wiki/Kamberkrebs)
+[Orconectes limosus](http://de.wikipedia.org/wiki/Kamberkrebs)
 
-# Kamberkrebs ("Amerikanischer Flußkrebs") / Crayfish
+#Kamberkrebs ("Amerikanischer Flußkrebs") / Crayfish
 
-# Bodensee / Lake Constance
+#Bodensee / Lake Constance
 
-# Untersee
+#Untersee

@@ -5,6 +5,7 @@ draft: false
 tags: ["d1db3k-blogspot"]
 featured_image: "images/2013/2013-08_rio-de-janeiro/GOPR2110.JPG"
 ---
+
 *This post was originally published on d1db3k.blogspot.com on 2013-08-13. I migrated this post in January 2026.*
 
 ---
@@ -32,3 +33,4 @@ I will come back in any case.
 ![GOPR2192.JPG](/images/2013/2013-08_rio-de-janeiro/GOPR2192.JPG)
 
 ![GOPR2293.JPG](/images/2013/2013-08_rio-de-janeiro/GOPR2293.JPG)
+

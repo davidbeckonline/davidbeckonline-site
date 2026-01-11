@@ -9,8 +9,8 @@ featured_image: "images/2013/2013-04_animated-gif-for-any-reason/http-__makeagif
 
 ---
 
-![http-__makeagif.com_media_4-11-2013_xQ_eS8.gif](/images/2013/2013-04_animated-gif-for-any-reason/http-__makeagif.com_media_4-11-2013_xQ_eS8.gif)
-
 I don't know why, but for any reason everybody - at least every blog - needs its own Animated GIF.
 
 Well then...
+
+![http-__makeagif.com_media_4-11-2013_xQ_eS8.gif](/images/2013/2013-04_animated-gif-for-any-reason/http-__makeagif.com_media_4-11-2013_xQ_eS8.gif)

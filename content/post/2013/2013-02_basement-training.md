@@ -9,8 +9,6 @@ featured_image: "images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg"
 
 ---
 
-![2013-02-15-19-26-35.jpg](/images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg)
-
 After the Iron Man 70.3 last year in Zell am See / Kaprun, I was already feeling a little bit annoyed of endurance sports, especially endurance sports training. Nevertheless I decided to take advantage of the fitness level I had achieved over the last three years of training in the pool, in the saddle and in my running shoes. I decided to do my first marathon. "This one and that's it. Back to fun sports.", that's what I thought.
 
 Somehow I achieved this goal. I trained less over the last months. The only sport I continued to train was the swimming. Apart from that I went skating, skiing, spent some time on my MTB (but only in sunny conditions) - that was it.
@@ -24,3 +22,5 @@ Now it is February and even though it is cold and snowing, I am getting the feel
 So how to proceed?
 
 Well, yesterday was the first training session on my bike in the basement. I was watching triathlon-szene.de as I did so often during the last winters. And I did my first running sessions again this week. They did not feel good actually, but for some short moment, that feeling was back...
+
+![2013-02-15-19-26-35.jpg](/images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg)

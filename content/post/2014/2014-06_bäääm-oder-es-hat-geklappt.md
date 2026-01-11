@@ -10,8 +10,6 @@ featured_image: "images/2014/2014-06_bäääm-oder-es-hat-geklappt/IMG_20140621_
 
 ---
 
-![IMG_20140621_061510.jpg](/images/2014/2014-06_bäääm-oder-es-hat-geklappt/IMG_20140621_061510.jpg)
-
 Dramaturgisch bestimmt nicht die beste Idee das Ergebnis gleich in der Überschrift vorweg zu nehmen. Aber so ist es: Es hat tatsächlich geklappt!
 
 Start war heute Morgen um 06:17.
@@ -45,3 +43,5 @@ In dieser Variante schätze ich die geschwommene Strecke auf "gute" elf Kilomete
 Heute habe ich das Maximale rausgeholt.
 
 Und jetzt? Sollte man daraus ein öffentliches Event machen :o)
+
+![IMG_20140621_061510.jpg](/images/2014/2014-06_bäääm-oder-es-hat-geklappt/IMG_20140621_061510.jpg)
