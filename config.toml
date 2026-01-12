@@ -23,6 +23,13 @@ networks = [
   profilelink  = "https://hachyderm.io/@davidbeck"
   
 
+[ananke.social.networks.linkedin]
+slug = "codeberg"
+label = "Codeberg"
+color = "#0077b5" # add the proper color here
+profile = "YourCodebergUrl/%s" # %s will be replaced
+icon = "codeberg-logo_icon_white" # if the icon is in /assets/ananke/socials/
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
