@@ -11,8 +11,9 @@ featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png"
 
 **This post describes my journey from 3D printing to a silicone mat for epoxy upcycling.**
 
-For a short description of the project together with the 3D printing files, I recommend to check my GitHub repository on this subject:
-https://github.com/davidbeckonline/epoxy_tool_mat
+For a short description of the project together with the 3D printing files, I recommend to check my ~~GitHub~~ Codeberg repository on this subject:
+
+https://codeberg.org/steiger/epoxy_tool_mat
 
 ### What to do with epoxy remains
 
