@@ -15,20 +15,24 @@ SectionPagesMenu = "main"
 
 [params.ananke.social.follow]
 networks = [
-  "mastodon"
+  "mastodon",
+  "codeberg"
 ]
 
 [params.ananke.social.mastodon]
   username = "davidbeck"
   profilelink  = "https://hachyderm.io/@davidbeck"
-  
 
-[ananke.social.networks.linkedin]
+[params.ananke.social.codeberg]
+username = "steiger"
+
+[params.ananke.social.networks.codeberg]
 slug = "codeberg"
 label = "Codeberg"
-color = "#0077b5" # add the proper color here
-profile = "YourCodebergUrl/%s" # %s will be replaced
-icon = "codeberg-logo_icon_white" # if the icon is in /assets/ananke/socials/
+color = "#2185D0"
+profile = "https://codeberg.org/%s"
+icon = "codeberg"
+
 
 [markup]
   [markup.goldmark]
