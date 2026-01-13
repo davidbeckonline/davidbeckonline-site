@@ -8,7 +8,7 @@ SectionPagesMenu = "main"
 [params]
   description = "A simple Website for random stuff."
   background_color_class = "bg-gray"
-  recent_posts_number = 12
+  recent_posts_number = 9
   
   featured_image = "/images/2021/2021-07-23_img_hh.png"
   
@@ -20,19 +20,15 @@ networks = [
 ]
 
 [params.ananke.social.mastodon]
-  username = "davidbeck"
-  profilelink  = "https://hachyderm.io/@davidbeck"
-
-[params.ananke.social.codeberg]
-username = "steiger"
+username = "davidbeck"
+profilelink = "https://hachyderm.io/@davidbeck"
 
 [params.ananke.social.networks.codeberg]
 slug = "codeberg"
 label = "Codeberg"
 color = "#2185D0"
-profile = "https://codeberg.org/%s"
+profile = "https://codeberg.org/steiger"
 icon = "codeberg"
-
 
 [markup]
   [markup.goldmark]

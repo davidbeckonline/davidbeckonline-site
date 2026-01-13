@@ -17,11 +17,19 @@ However, I made it to Tokyo - and I was really impressed.
 
 Early morning at Shibuya crossing.
 
+![2014-12-31.jpg](/images/2015/2015-01_new-york-rio-tokyo/2014-12-31.jpg)
+
 The view from Asakusa: [Tokio Skytree](http://en.wikipedia.org/wiki/Tokyo_Skytree) and [Asahi Beer Hall](http://en.wikipedia.org/wiki/Asahi_Beer_Hall)
+
+![PANO_20141231_133019.jpg](/images/2015/2015-01_new-york-rio-tokyo/PANO_20141231_133019.jpg)
 
 [Tokyo Skytree](http://en.wikipedia.org/wiki/Tokyo_Skytree) at night
 
+![IMG_20141231_183108.jpg](/images/2015/2015-01_new-york-rio-tokyo/IMG_20141231_183108.jpg)
+
 Inside [Meiji Shrein](http://en.wikipedia.org/wiki/Meiji_Shrine)
+
+![GOPR1529.JPG](/images/2015/2015-01_new-york-rio-tokyo/GOPR1529.JPG)
 
 Beautiful autumn leaves near [Meiji Shrine](http://en.wikipedia.org/wiki/Meiji_Shrine)
 
@@ -29,10 +37,16 @@ Beautiful autumn leaves near [Meiji Shrine](http://en.wikipedia.org/wiki/Meiji_S
 
 [Gaijin](http://en.wikipedia.org/wiki/Gaijin) moments :o)
 
+![2014-12-31_g.jpg](/images/2015/2015-01_new-york-rio-tokyo/2014-12-31_g.jpg)
+
 [Fuji-san](http://en.wikipedia.org/wiki/Mount_Fuji) (mount Fuji) as seen from [Ashinoko Lake](http://en.wikipedia.org/wiki/Lake_Ashi) 
+
+![2015-01-03.jpg](/images/2015/2015-01_new-york-rio-tokyo/2015-01-03.jpg)
 
 [Shibuya](http://en.wikipedia.org/wiki/Shibuya) crossing at night
 
-There is certainly not a lot of street art in central Tokyo, 
+![IMG_20150102_221138.jpg](/images/2015/2015-01_new-york-rio-tokyo/IMG_20150102_221138.jpg)
 
-but I found an (Space) [Invader](http://en.wikipedia.org/wiki/Invader_%28artist%29)
+There is certainly not a lot of street art in central Tokyo, but I found an (Space) [Invader](http://en.wikipedia.org/wiki/Invader_%28artist%29)
+
+![IMG_20141230_105921.jpg](/images/2015/2015-01_new-york-rio-tokyo/IMG_20141230_105921.jpg)
