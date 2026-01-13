@@ -5,9 +5,9 @@
    viewBox="0 0 4.2333332 4.2333335"
    version="1.1"
    id="svg1468"
-   sodipodi:docname="codeberg-logo_icon_white.svg"
+   sodipodi:docname="codeberg-logo_icon_blue.svg"
    inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
-   inkscape:export-filename="/home/robert/Documents/Codeberg/Logo-Kit/svg/Codeberg-favicon_64px.png"
+   inkscape:export-filename="/home/mray/Projects/Codeberg/logo/icon/png/codeberg-logo_icon_blue.png"
    inkscape:export-xdpi="384"
    inkscape:export-ydpi="384"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -33,15 +33,15 @@
     <linearGradient
        id="linearGradient6924">
       <stop
-         style="stop-color:#2185d0;stop-opacity:0"
+         style="stop-color:currentColor;stop-opacity:0"
          offset="0"
          id="stop6920" />
       <stop
          id="stop6926"
          offset="0.49517274"
-         style="stop-color:#2185d0;stop-opacity:0.48923996" />
+         style="stop-color:currentColor;stop-opacity:0.48923996" />
       <stop
-         style="stop-color:#2185d0;stop-opacity:0.63279623"
+         style="stop-color:currentColor;stop-opacity:0.63279623"
          offset="1"
          id="stop6922" />
     </linearGradient>
@@ -56,15 +56,15 @@
     <linearGradient
        id="linearGradient6924-6">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
+         style="stop-color:#2185d0;stop-opacity:0;"
          offset="0"
          id="stop6920-7" />
       <stop
          id="stop6926-5"
          offset="0.49517274"
-         style="stop-color:#ffffff;stop-opacity:0.30000001;" />
+         style="stop-color:#2185d0;stop-opacity:0.30000001;" />
       <stop
-         style="stop-color:#ffffff;stop-opacity:0.30000001;"
+         style="stop-color:#2185d0;stop-opacity:0.30000001;"
          offset="1"
          id="stop6922-3" />
     </linearGradient>
@@ -72,14 +72,14 @@
   <sodipodi:namedview
      showborder="false"
      id="base"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="2.8505242"
-     inkscape:cy="18.274291"
+     inkscape:cx="12.948893"
+     inkscape:cy="12.661631"
      inkscape:document-units="px"
      inkscape:current-layer="svg1468"
      inkscape:document-rotation="0"
@@ -155,7 +155,7 @@
        inkscape:label="berg" />
     <path
        id="path360787"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:17.0055;paint-order:markers fill stroke;stop-color:#000000"
+       style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:17.0055;paint-order:markers fill stroke;stop-color:#000000"
        d="m 11249.461,-1883.6961 c -12.74,0 -23.067,10.3275 -23.067,23.0671 0,4.3335 1.22,8.5795 3.522,12.2514 l 19.232,-24.8636 c 0.138,-0.1796 0.486,-0.1796 0.624,0 l 19.233,24.8646 c 2.302,-3.6721 3.523,-7.9185 3.523,-12.2524 0,-12.7396 -10.327,-23.0671 -23.067,-23.0671 z"
        sodipodi:nodetypes="sccccccs"
        inkscape:label="sky"
