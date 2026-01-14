@@ -1,8 +1,10 @@
 ---
-title: "CV"
-date: 2022-09-04T11:52:05Z
+title: "About Me"
+date: 2026-01-13T11:52:05Z
+weight: 30
 draft: false
 
+featured_image: '/images/2021/2021-07-23_img_hh.png'
 ---
 
 <style>
@@ -24,13 +26,18 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ***
 
-### Work Experience
+## Work Experience
 
-#### @ Amazon Advertising
+### @ Amazon Advertising
 
-![Amazon Ads logo](/images/cv_amazon-ads_100px.png)
+![Amazon Ads logo](/images/cv/cv_amazon-ads_100px.png)
 
-**Sr. Ad Tech Consultant** (since 02/2022)
+**Principal Ad Tech Consultant** (since 2025/10)
+- Public Speaker for Amazon Ads Ad-Tech
+- Project Lead for Ad-Tech initiatives of Global Advertisers
+- Cross-Organizational project managment
+
+**Senior Ad Tech Consultant** (02/2022 - 2025/09)
 - train data analysts on Amazon Marketing Cloud (AMC) usage
 - run AMC workshops based on client requests
 - provide content on AMC (blog posts, training content, etc.)
@@ -50,7 +57,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 - Improvement of existing internal marketing applications
 - delivered 5.0 Star rated Builder Session at AWS re:invent 2019
 
-#### @ Amazon
+### @ Amazon
 
 ![Amazon logo](/images/cv/cv_amazon_100px.png)
 
@@ -59,7 +66,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 - Improvement of existing internal marketing applications
 - Budget planning and responsibility for social media activities across Europe ![](RackMultipart20211022-4-12bc9y9_html_9576b3335526579.png)
 
-#### @ SAP
+### @ SAP
 
 ![SAP logo](/images/cv/cv_sap_100px.png)
 
@@ -77,15 +84,15 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ***
 
-### Certifications
+## Certifications
 - AWS certified Solution Architect - Associate
 - AWS certified Cloud Practitioner
  
 ***
 
-### Education
+## Education
 
-#### @ University of Tübingen
+### @ University of Tübingen
 
 ![Uni Tübingen logo](/images/cv/cv_uni-tuebingen_100px.png)
 

@@ -1,10 +1,10 @@
 ---
-title: Contact
-omit_header_text: true
-description: I would love to hear from you
-type: page
-menu: main
+title: "Contact"
+date: 2026-01-13T11:52:05Z
+weight: 70
+draft: false
 
+featured_image: '/images/2021/2021-07-23_img_hh.png'
 ---
 
 If you want to you reach out, please send an email to:

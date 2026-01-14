@@ -1,7 +1,10 @@
 ---
-title: "About"
+title: "Imprint"
 date: 2021-10-04T11:52:05Z
+weight: 90
 draft: false
+
+featured_image: '/images/2021/2021-07-23_img_hh.png'
 ---
 
 This is a private website. Some legal stuff below.
