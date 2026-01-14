@@ -1,6 +1,6 @@
 ---
 title: "Zeitpunkt"
-date: 2014-05-07T06:36:00.001Z
+date: 2014-05-07T06:36:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

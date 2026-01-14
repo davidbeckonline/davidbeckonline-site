@@ -1,6 +1,6 @@
 ---
 title: "Time Lapse - Thunderstorm"
-date: 2013-05-04T12:10:00.001Z
+date: 2013-05-04T12:10:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 ---

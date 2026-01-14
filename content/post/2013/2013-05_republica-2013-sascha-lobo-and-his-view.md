@@ -1,6 +1,6 @@
 ---
 title: "re:publica 2013 - Sascha Lobo and his view @(#)"
-date: 2013-05-07T05:45:00.001Z
+date: 2013-05-07T05:45:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 ---

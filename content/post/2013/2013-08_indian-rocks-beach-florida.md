@@ -1,6 +1,6 @@
 ---
 title: "Indian Rocks Beach, Florida"
-date: 2013-08-22T10:44:00.001Z
+date: 2013-08-22T10:44:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "About filters and personal internet bubbles"
-date: 2013-12-09T20:05:00.002Z
+date: 2013-12-09T20:05:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 ---

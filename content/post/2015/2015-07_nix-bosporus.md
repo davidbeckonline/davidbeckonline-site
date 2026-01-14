@@ -1,6 +1,6 @@
 ---
 title: "Nix Bosporus"
-date: 2015-07-14T20:16:00.003Z
+date: 2015-07-14T20:16:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

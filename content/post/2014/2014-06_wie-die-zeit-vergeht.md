@@ -1,6 +1,6 @@
 ---
 title: "Wie die Zeit vergeht"
-date: 2014-06-03T21:05:00.001Z
+date: 2014-06-03T21:05:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

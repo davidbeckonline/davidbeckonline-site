@@ -1,6 +1,6 @@
-baseURL = "http://davidbeck.online/"
+baseURL = "https://davidbeck.online/"
 languageCode = "en-us"
-title = "Blog"
+title = "A tiny little blog by David Beck"
 theme = "ananke"
 
 SectionPagesMenu = "main"

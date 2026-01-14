@@ -1,6 +1,6 @@
 ---
 title: "Am See eingetroffen"
-date: 2014-06-16T21:09:00.001Z
+date: 2014-06-16T21:09:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

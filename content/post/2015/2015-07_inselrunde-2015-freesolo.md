@@ -1,6 +1,6 @@
 ---
 title: "Inselrunde 2015 - #freesolo"
-date: 2015-07-20T06:40:00.001Z
+date: 2015-07-20T06:40:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 featured_image: "images/2015/2015-07_inselrunde-2015-freesolo/IMG_20150718_063031.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Rückblick: Mai"
-date: 2014-06-03T20:52:00.004Z
+date: 2014-06-03T20:52:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

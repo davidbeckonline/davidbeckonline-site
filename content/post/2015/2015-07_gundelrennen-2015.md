@@ -1,6 +1,6 @@
 ---
 title: "Gundelrennen 2015"
-date: 2015-07-17T19:34:00.001Z
+date: 2015-07-17T19:34:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 featured_image: "images/2015/2015-07_gundelrennen-2015/GOPR5231-EFFECTS.jpg"

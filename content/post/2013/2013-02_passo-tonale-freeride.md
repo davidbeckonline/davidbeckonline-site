@@ -1,6 +1,6 @@
 ---
 title: "Passo Tonale - Freeride"
-date: 2013-02-24T18:37:00.001Z
+date: 2013-02-24T18:37:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 featured_image: "images/2013/2013-02_passo-tonale-freeride/IMG_20130222_104136.jpg"

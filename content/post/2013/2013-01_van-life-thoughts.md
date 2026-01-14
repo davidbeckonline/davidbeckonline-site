@@ -1,6 +1,6 @@
 ---
 title: "Van Life Thoughts"
-date: 2013-01-14T21:48:00.001Z
+date: 2013-01-14T21:48:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 featured_image: "images/2013/2023-01-14_van-life/van-life.png"

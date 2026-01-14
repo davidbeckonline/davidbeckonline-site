@@ -1,6 +1,6 @@
 ---
 title: "[Hello blub]"
-date: 2013-10-27T22:51:00.002Z
+date: 2013-10-27T22:51:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Material Design"
-date: 2015-11-29T21:19:00.001Z
+date: 2015-11-29T21:19:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 featured_image: "images/2015/2015-11_material-design/ic_android_black_24dp_2x.png"

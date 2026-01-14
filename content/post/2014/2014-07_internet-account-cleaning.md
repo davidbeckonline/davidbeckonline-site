@@ -1,6 +1,6 @@
 ---
 title: "Internet Account Cleaning"
-date: 2014-07-02T05:49:00.001Z
+date: 2014-07-02T05:49:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
 featured_image: "images/2014/2014-07_internet-account-cleaning/Google-plus.jpg"
