@@ -3,7 +3,7 @@ title: "3D print to epoxy tool mat"
 date: 2023-04-21T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png"
+featured_image: "/images/2023/2023-04_epoxy-mat/EpoxyMat_Final.png"
 
 ---
 

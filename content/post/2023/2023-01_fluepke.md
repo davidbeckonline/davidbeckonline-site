@@ -3,7 +3,7 @@ title: "Ordensanregung Flüpke"
 date: 2023-01-23T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-01_fluepke/ordernsanregung_no-text.png"
+featured_image: "/images/2023/2023-01_fluepke/ordernsanregung_no-text.png"
 
 ---
 

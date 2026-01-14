@@ -3,7 +3,7 @@ title: "Hauptstadtfieber"
 date: 2013-08-20T01:52:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-08_hauptstadtfieber/IMG_20130802_145458.JPG"
+featured_image: "/images/2013/2013-08_hauptstadtfieber/IMG_20130802_145458.JPG"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-08-20. I migrated this post in January 2026.*
 

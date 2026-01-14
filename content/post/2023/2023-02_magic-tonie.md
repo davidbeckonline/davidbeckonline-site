@@ -3,7 +3,7 @@ title: "Daruma Magic Tonie"
 date: 2023-02-26T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-02_magic-tonie/MagicTonie_Final.png"
+featured_image: "/images/2023/2023-02_magic-tonie/MagicTonie_Final.png"
 
 ---
 

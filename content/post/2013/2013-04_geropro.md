@@ -3,7 +3,7 @@ title: "GeroPRO"
 date: 2013-04-15T21:20:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-04_geropro/GOPR0241.jpeg"
+featured_image: "/images/2013/2013-04_geropro/GOPR0241.jpeg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-04-15. I migrated this post in January 2026.*
 

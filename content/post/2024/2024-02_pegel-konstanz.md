@@ -3,7 +3,7 @@ title: "pegel-konstanz.de"
 date: 2024-02-19T16:04:53Z
 draft: false
 
-featured_image: "images/2024/2024-02_pegel-konstanz/pegel-kn_grey-blue.png"
+featured_image: "/images/2024/2024-02_pegel-konstanz/pegel-kn_grey-blue.png"
 ---
 
 ## New Website: pegel-konstanz.de

@@ -3,7 +3,7 @@ title: '"Bäääm" oder "Es hat geklappt!"'
 date: 2014-06-21T16:15:00Z
 draft: false
 tags: ["inselrunde-blogspot"]
-featured_image: "images/2014/2014-06_bäääm-oder-es-hat-geklappt/IMG_20140621_061510.jpg"
+featured_image: "/images/2014/2014-06_bäääm-oder-es-hat-geklappt/IMG_20140621_061510.jpg"
 ---
 
 *This post was originally published on inselrunde.blogspot.com on 2014-06-21. I migrated this post in January 2026.*

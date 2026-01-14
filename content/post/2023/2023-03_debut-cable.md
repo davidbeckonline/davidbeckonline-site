@@ -3,7 +3,7 @@ title: "Pro-Ject Debut III - Fix Stylus Cables"
 date: 2023-03-27T08:03:52Z
 draft: false
 
-featured_image: "images/2023/2023-03_debut-cable/2023-03_solution.jpg"
+featured_image: "/images/2023/2023-03_debut-cable/2023-03_solution.jpg"
 
 ---
 

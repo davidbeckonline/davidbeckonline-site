@@ -3,7 +3,7 @@ title: "Slackline"
 date: 2013-03-03T21:25:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-03_slackline/IMG_20130303_170801.jpg"
+featured_image: "/images/2013/2013-03_slackline/IMG_20130303_170801.jpg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-03-03. I migrated this post in January 2026.*
 

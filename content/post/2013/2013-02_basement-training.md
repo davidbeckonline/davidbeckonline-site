@@ -3,7 +3,7 @@ title: "Basement Training"
 date: 2013-02-16T11:59:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg"
+featured_image: "/images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-02-16. I migrated this post in January 2026.*
 

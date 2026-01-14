@@ -3,7 +3,7 @@ title: "New York - Rio - Tokyo"
 date: 2015-01-21T21:50:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2015/2015-01_new-york-rio-tokyo/2014-12-30.jpg"
+featured_image: "/images/2015/2015-01_new-york-rio-tokyo/2014-12-30.jpg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2015-01-21. I migrated this post in January 2026.*
 

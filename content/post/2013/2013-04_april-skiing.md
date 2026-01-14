@@ -3,7 +3,7 @@ title: "April Skiing"
 date: 2013-04-08T10:53:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-04_april-skiing/P4060837.JPG"
+featured_image: "/images/2013/2013-04_april-skiing/P4060837.JPG"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-04-08. I migrated this post in January 2026.*
 

@@ -3,7 +3,7 @@ title: "This is for everyone"
 date: 2025-12-10T20:03:52Z
 draft: false
 
-featured_image: "images/2025/2025-03_hugo_relaunch/2025-12-11_this-is-for-everyone.jpg"
+featured_image: "/images/2025/2025-03_hugo_relaunch/2025-12-11_this-is-for-everyone.jpg"
 ---
 
 ## Tim Berners-Lee: "This is for everyone"

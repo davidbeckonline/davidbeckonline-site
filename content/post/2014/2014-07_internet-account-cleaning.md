@@ -3,7 +3,7 @@ title: "Internet Account Cleaning"
 date: 2014-07-02T05:49:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2014/2014-07_internet-account-cleaning/Google-plus.jpg"
+featured_image: "/images/2014/2014-07_internet-account-cleaning/Google-plus.jpg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2014-07-02. I migrated this post in January 2026.*
 

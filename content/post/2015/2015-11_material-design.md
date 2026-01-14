@@ -3,7 +3,7 @@ title: "Material Design"
 date: 2015-11-29T21:19:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2015/2015-11_material-design/ic_android_black_24dp_2x.png"
+featured_image: "/images/2015/2015-11_material-design/ic_android_black_24dp_2x.png"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2015-11-29. I migrated this post in January 2026.*
 

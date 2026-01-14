@@ -3,7 +3,7 @@ title: "Cross-Country Skiing - Heiligenberg"
 date: 2013-02-10T18:10:00Z
 draft: false
 tags: ["d1db3k-blogspot"]
-featured_image: "images/2013/2013-02_cross-country-skiing-heiligenberg/IMG_20130210_170315.jpg"
+featured_image: "/images/2013/2013-02_cross-country-skiing-heiligenberg/IMG_20130210_170315.jpg"
 ---
 *This post was originally published on d1db3k.blogspot.com on 2013-02-10. I migrated this post in January 2026.*
 
