@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 date: 2026-01-13T11:52:05Z
 weight: 30
 draft: false
@@ -30,7 +30,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ### @ Amazon Advertising
 
-![Amazon Ads logo](/images/cv/cv_amazon-ads_100px.png)
+![Amazon Ads logo](/images/about_me/cv_amazon-ads_100px.png)
 
 **Principal Ad Tech Consultant** (since 2025/10)
 - Public Speaker for Amazon Ads Ad-Tech
@@ -59,7 +59,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ### @ Amazon
 
-![Amazon logo](/images/cv/cv_amazon_100px.png)
+![Amazon logo](/images/about_me/cv_amazon_100px.png)
 
 **Marketing Manager - Social Advertising EU** (03/2016 - 07/2018)
 - Expert for social media tools and policies
@@ -68,7 +68,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ### @ SAP
 
-![SAP logo](/images/cv/cv_sap_100px.png)
+![SAP logo](/images/about_me/cv_sap_100px.png)
 
 **Service Portfolio Manager for Sustainability Cloud** (04/2015 - 02/2016)
 - Identification, description, and evaluation of cloud services
@@ -94,7 +94,7 @@ Outside of work, the focus is on family. With two boys, we live outside of Berli
 
 ### @ University of Tübingen
 
-![Uni Tübingen logo](/images/cv/cv_uni-tuebingen_100px.png)
+![Uni Tübingen logo](/images/about_me/cv_uni-tuebingen_100px.png)
 
 **Geoecology / Ecosystem Management (Diploma)** (10/2004 – 12/2009)
 

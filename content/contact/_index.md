@@ -7,8 +7,21 @@ draft: false
 featured_image: '/images/2021/2021-07-23_img_hh.png'
 ---
 
-If you want to you reach out, please send an email to:
+There are various ways to get in contact with me.
+Email and Mastodon DM are probably best.
+
+## Email
 
 davidbeck.onlinecont.handcraft079@passmail.net
 
-This is a (not so pretty) email alias, which replaces the intake form I used to have for this purpose. Down to zero cookies now.
+## Mastodon
+
+https://hachyderm.io/@davidbeck
+
+## Codeberg
+
+https://codeberg.org/steiger
+
+## GitHub
+
+https://github.com/davidbeckonline

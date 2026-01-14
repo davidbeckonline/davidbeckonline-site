@@ -7,4 +7,4 @@ draft: false
 featured_image: '/images/2021/2021-07-23_img_hh.png'
 ---
 
-Welcome to my personal blog.
+Welcome to my personal website and blog.
