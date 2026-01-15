@@ -27,11 +27,14 @@ profilelink = "https://hachyderm.io/@davidbeck"
 [params.ananke.social.networks.codeberg]
 slug = "codeberg"
 label = "Codeberg"
-color = "#2185D0"
 profile = "https://codeberg.org/steiger"
 icon = "codeberg"
 
-[params.ananke.social.rss]
+[params.ananke.social.networks.rss]
+slug = "rss"
+label = "RSS"
+profile = "/index.xml"
+icon = "rss"
 
 [markup]
   [markup.goldmark]
