@@ -19,6 +19,8 @@ Very happy with that.
 
 ![GOPR0241.jpeg](/images/2013/2013-04_geropro/GOPR0241.jpeg)
 
+<!--more-->
+
 ![GOPR0243.jpeg](/images/2013/2013-04_geropro/GOPR0243.jpeg)
 
 ![GOPR0247.jpeg](/images/2013/2013-04_geropro/GOPR0247.jpeg)

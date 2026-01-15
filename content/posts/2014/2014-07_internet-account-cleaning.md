@@ -17,6 +17,8 @@ I thought about it so many times. Time to take action.
 
 ![Tumblr.jpg](/images/2014/2014-07_internet-account-cleaning/Tumblr.jpg)
 
+<!--more-->
+
 **Facebook**
 
 ![facebook.jpg](/images/2014/2014-07_internet-account-cleaning/facebook.jpg)

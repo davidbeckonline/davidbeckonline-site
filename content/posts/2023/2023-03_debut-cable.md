@@ -15,6 +15,8 @@ featured_image: "/images/2023/2023-03_debut-cable/2023-03_solution.jpg"
 
 After replacing the stylus on my Pro-Ject Debut III, the cables were too long. This wasn't a technical issue. It was more about aesthetics.
 
+<!--more-->
+
 ![2023-03_issue.jpg](/images/2023/2023-03_debut-cable/2023-03_issue.jpg)
 
 First, I tried to push the cables back manually, but this seemed to worsen the problem. Next step was to ask for help on Reddit:

@@ -20,6 +20,8 @@ I will come back in any case.
 
 #tudobem
 
+<!--more-->
+
 ![GOPR2110.JPG](/images/2013/2013-08_rio-de-janeiro/GOPR2110.JPG)
 
 ![GOPR2117.JPG](/images/2013/2013-08_rio-de-janeiro/GOPR2117.JPG)
