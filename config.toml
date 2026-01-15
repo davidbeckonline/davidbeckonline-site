@@ -12,6 +12,8 @@ SectionPagesMenu = "main"
   
   featured_image = "/images/2021/2021-07-23_img_hh.png"
   
+  # RSS feed metadata
+  copyright = "David Beck"
 
 [params.ananke.social.follow]
 networks = [
@@ -34,3 +36,9 @@ icon = "codeberg"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# RSS Configuration
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  rssLimit = 10
