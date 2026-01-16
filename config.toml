@@ -45,4 +45,7 @@ icon = "rss"
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
-  rssLimit = 10
+
+[services]
+  [services.rss]
+    limit = 10
