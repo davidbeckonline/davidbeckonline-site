@@ -17,6 +17,8 @@ I guess some pictures are the best way to give you an impression of what it was 
 
 ![IMG_20130222_104136.jpg](/images/2013/2013-02_passo-tonale-freeride/IMG_20130222_104136.jpg)
 
+![PANO_20130222_111835.jpg](/images/2013/2013-02_passo-tonale-freeride/PANO_20130222_111835.jpg)
+
 ![IMG_20130222_130849.jpg](/images/2013/2013-02_passo-tonale-freeride/IMG_20130222_130849.jpg)
 
 ![IMG_20130223_100949.jpg](/images/2013/2013-02_passo-tonale-freeride/IMG_20130223_100949.jpg)
@@ -24,5 +26,3 @@ I guess some pictures are the best way to give you an impression of what it was 
 ![IMG_20130223_101010.jpg](/images/2013/2013-02_passo-tonale-freeride/IMG_20130223_101010.jpg)
 
 ![IMG_20130223_111519.jpg](/images/2013/2013-02_passo-tonale-freeride/IMG_20130223_111519.jpg)
-
-![PANO_20130222_111835.jpg](/images/2013/2013-02_passo-tonale-freeride/PANO_20130222_111835.jpg)

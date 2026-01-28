@@ -9,8 +9,14 @@ featured_image: "/images/2012/2012-12_ski-tuning/20121228143958207.jpg"
 
 ---
 
-![20121228143958207.jpg](/images/2012/2012-12_ski-tuning/20121228143958207.jpg)
-
 The aesthetics of ski tuning.
 
 Time to leave.
+
+![20121228143958207.jpg](/images/2012/2012-12_ski-tuning/20121228143958207.jpg)
+
+![20121228144749464.jpg](/images/2012/2012-12_ski-tuning/20121228144749464.jpg) 
+
+![20121228144939618.jpg](/images/2012/2012-12_ski-tuning/20121228144939618.jpg) 
+
+![20121228152450640.jpg](/images/2012/2012-12_ski-tuning/20121228152450640.jpg)

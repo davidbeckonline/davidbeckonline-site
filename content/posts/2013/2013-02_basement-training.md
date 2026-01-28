@@ -24,3 +24,5 @@ So how to proceed?
 Well, yesterday was the first training session on my bike in the basement. I was watching triathlon-szene.de as I did so often during the last winters. And I did my first running sessions again this week. They did not feel good actually, but for some short moment, that feeling was back...
 
 ![2013-02-15-19-26-35.jpg](/images/2013/2013-02_basement-training/2013-02-15-19-26-35.jpg)
+
+![2013-02-15-19-29-11.jpg](/images/2013/2013-02_basement-training/2013-02-15-19-29-11.jpg)
