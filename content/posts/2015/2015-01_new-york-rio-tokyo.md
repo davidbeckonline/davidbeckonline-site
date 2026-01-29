@@ -11,7 +11,7 @@ featured_image: "/images/2015/2015-01_new-york-rio-tokyo/2014-12-30.jpg"
 
 As I am now living in Bavaria, I have managed to visit New York, Rio and Rosenheim (Wiki). But now, I am officially allowed to sing along when "New York, Rio, Tokyo" (Wiki) is playing on the radio. As I just realized that this song did not enter the charts anywhere else in the world, probably only Germans might care about this.
 
-[YouTube Video](https://www.youtube.com/watch?v=OglGjHOuBa8)
+[YouTube Video: Trio - New York, Rio, Tokyo](https://www.youtube.com/watch?v=OglGjHOuBa8)
 
 However, I made it to Tokyo - and I was really impressed.
 
