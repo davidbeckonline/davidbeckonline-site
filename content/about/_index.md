@@ -112,3 +112,4 @@ Specialization: Environmental Management
 - Flussbad Berlin e.V. (Member since Jun 2025)
 - Codeberg e.V. (Supporting Member since Nov 2025)
 - Wikimedia Foundation (Supporting Member since Nov 2025)
+- Openstreetmap Foundation (Member since Jan 2026)
