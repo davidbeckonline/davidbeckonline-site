@@ -9,6 +9,14 @@ featured_image: '/images/2021/2021-07-23_img_hh.png'
 
 This is a private website. Some legal stuff below.
 
+The code for this website can be found here:
+
+https://codeberg.org/steiger/davidbeckonline-site
+
+I am experimenting with CodeBerg Pages to serve this website. The repo can be found here:
+
+https://steiger.codeberg.page/
+
 ===
 
 Impressum
