@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bodensee Level Analysis with Python | Blog by David Beck</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Analyzing the level of Lake Bodensee with Python
+In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.
+A short summary of the output can also be found in this Twitter thread:">
+    <meta name="generator" content="Hugo 0.152.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://davidbeck.online/posts/2022/2022-08_bondensee-python/">
+    
+
+    
+    
+    <meta property="og:url" content="https://davidbeck.online/posts/2022/2022-08_bondensee-python/">
+  <meta property="og:site_name" content="Blog by David Beck">
+  <meta property="og:title" content="Bodensee Level Analysis with Python">
+  <meta property="og:description" content="Analyzing the level of Lake Bodensee with Python In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.
+A short summary of the output can also be found in this Twitter thread:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-08-20T04:03:52+00:00">
+    <meta property="article:modified_time" content="2022-08-20T04:03:52+00:00">
+
+  <meta itemprop="name" content="Bodensee Level Analysis with Python">
+  <meta itemprop="description" content="Analyzing the level of Lake Bodensee with Python In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.
+A short summary of the output can also be found in this Twitter thread:">
+  <meta itemprop="datePublished" content="2022-08-20T04:03:52+00:00">
+  <meta itemprop="dateModified" content="2022-08-20T04:03:52+00:00">
+  <meta itemprop="wordCount" content="1877">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bodensee Level Analysis with Python">
+  <meta name="twitter:description" content="Analyzing the level of Lake Bodensee with Python In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.
+A short summary of the output can also be found in this Twitter thread:">
+
+      
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://davidbeck.online/images/2022/2022-08_Bodensee/9_graph.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Blog by David Beck
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/imprint/" title="Imprint page">
+              Imprint
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"><a href="https://hachyderm.io/@davidbeck" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition mastodon link dib z-999 pt3 pt0-l mr1"
+        title="follow on Mastodon - Opens in a new window"
+        aria-label="follow on Mastodon - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+            
+          </span></a><a href="https://codeberg.org/steiger" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition codeberg link dib z-999 pt3 pt0-l mr1"
+        title="follow on Codeberg - Opens in a new window"
+        aria-label="follow on Codeberg - Opens in a new window">
+      <span class="icon">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg1468"
+   sodipodi:docname="codeberg-logo_special_no-halftone.svg"
+   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
+   inkscape:export-filename="/home/mray/Projects/Codeberg/codeberg_.png"
+   inkscape:export-xdpi="1536"
+   inkscape:export-ydpi="1536"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2230">Codeberg logo special version</title>
+  <defs
+     id="defs1462" />
+  <sodipodi:namedview
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox="true"
+     showborder="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="5.7452425"
+     inkscape:cy="32.261747"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:snap-global="false"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2067" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Codeberg logo special version</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Robert Martinez</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:description>Special single color version with fake halftone</dc:description>
+        <dc:date>2020-04-09</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Codeberg and the Codeberg Logo are trademarks of Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>codeberg.org</dc:source>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.867463,-75.990641)">
+    <g
+       id="g1542-5-7-2"
+       style="opacity:1"
+       transform="matrix(0.62731857,0,0,0.30231784,25.415003,63.342477)" />
+    <path
+       id="rect60043"
+       style="fill-opacity:1;stroke:none;stroke-width:0.0660874;paint-order:markers fill stroke;stop-color:#000000"
+       d="m 46.983886,76.122471 c -1.172544,0 -2.116423,0.944367 -2.116423,2.116911 -5.6e-5,0.397554 0.112002,0.787589 0.323326,1.124632 l 1.764533,-2.281439 c 0.01275,-0.01632 0.04434,-0.01632 0.05708,0 l 0.736954,0.952848 h -0.527804 l 0.01143,0.04204 h 0.549083 l 0.155695,0.200846 h -0.648209 l 0.01818,0.06591 h 0.680903 l 0.137012,0.176972 h -0.768612 l 0.02386,0.08511 h 0.810129 l 0.122481,0.157769 H 47.42501 l 0.02906,0.103797 h 0.939356 l 0.10743,0.138567 h -1.008381 l 0.03218,0.114695 h 1.064947 l 0.09912,0.128189 h -1.128265 l 0.03218,0.114694 h 1.184832 c 0.211323,-0.337043 0.323393,-0.727078 0.323326,-1.12463 1e-6,-1.172544 -0.944364,-2.116911 -2.116909,-2.116911 z m 0.644552,3.369732 0.03218,0.114695 h 0.939339 c 0.03063,-0.03616 0.06232,-0.07645 0.09055,-0.114695 z m 0.06799,0.242882 0.03166,0.114695 h 0.628487 c 0.04111,-0.03504 0.08566,-0.07553 0.125654,-0.114694 z m 0.06747,0.242883 0.03218,0.114176 h 0.212225 c 0.06271,-0.03599 0.120816,-0.07262 0.183679,-0.114176 z"
+       sodipodi:nodetypes="scccccccccccccccccccccccccccccsccccccccccccccc" />
+  </g>
+</svg>
+
+            
+          </span></a><a href="/index.xml" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition rss link dib z-999 pt3 pt0-l mr1"
+        title="follow on RSS - Opens in a new window"
+        aria-label="follow on RSS - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+            
+          </span></a></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Bodensee Level Analysis with Python</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Bodensee Level Analysis with Python</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-08-20T04:03:52Z">August 20, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h2 id="analyzing-the-level-of-lake-bodensee-with-python">Analyzing the level of Lake Bodensee with Python</h2>
+<p><strong>In this post I want to discuss a data analysis experiment I recently worked on. My aim was to use AWS SageMaker and Python to visualize public data. This post is structured as follows: First, I am going to explain the goal. Then, I will briefly describe the setup. After that, I will walk through the individual steps of my analysis.</strong></p>
+<p>A short summary of the output can also be found in this <a href="https://twitter.com/davidbeckonline/status/1561425516460052481?s=20&amp;t=tjdtQ9vvWjj_az6sC_NQpQ">Twitter thread</a>:</p>
+<h3 id="gaol">Gaol</h3>
+<p>In short: My goal is to recreate a graph showing the level of Lake Contanze (Bodensee).</p>
+<p>I like to dig into data. I enjoy questioning data. And I like data visualization.</p>
+<p>A simple but interesting data visualization I get back to again and again can be found on the <a href="https://www.hvz.baden-wuerttemberg.de/pegel.html?id=">website</a> of <em>Hochwasservorhersagezentrale
+Baden-Württemberg</em> (HVZ BaWü). This is what is looks like:</p>
+<p><img src="/images/2022/2022-08_Bodensee/2022-08_hvz_website.jpg?classes=border" alt="hvz-website"></p>
+<p>The graph shows the current level of Bodensee (Lake Constanze) as a blue line. Furthermore, it shows the long-term mean for each day (green line), the maximum value (red line), and minimum value (black line). <em>Long-term</em> in this case means that the values since year 1850 are considered (Update: They seem to have shortened the lookback window to time frame 1980 until 2021).
+What I want to do is to re-create this graph in a first step. And then dive deeper into the data by looking into certain years or aspects.</p>
+<h3 id="setup">Setup</h3>
+<p>I build this analysis in AWS. I simply enjoy working in this cloud environment. And I want to learn more about it. SageMaker is the service of choice in this case. This was recommended to me. I have to admit that I always thought that SageMaker is only for Machine Learning (ML). But of course, ML is all about data analysis. And with that, SageMaker contains all the tools you might want to use for data analysis. So that was my choice.</p>
+<p>This was my first project with Jupyter Notebooks. But that experience was excellent. Data was analyzed with Pandas (a Python Data Analysis Library). matplotlib was used for data visualization. But more on that later.</p>
+<h3 id="data-analysis">Data Analysis</h3>
+<p>Please note that this was my first data analysis in Python of that kind. What I am doing here might not be efficient - and it is certainly not elegant. For this pet project, I simply aimed to get the results I wanted to get.</p>
+<h4 id="get-source-data">Get source data</h4>
+<p>The mentioned HVZ is a public institution and with that, the data is also publicly available. You can download the data from
+<a href="https://udo.lubw.baden-wuerttemberg.de/public/pages/home/welcome.xhtml">https://udo.lubw.baden-wuerttemberg.de/public/pages/home/welcome.xhtml</a></p>
+<p>Sorry, all in German.</p>
+<p>Select Wasser &ndash;&gt; Oberflächengewässer &ndash;&gt; Hydrologische Landespegel &ndash;&gt; Hydrologische Landespegel (2x)</p>
+<p><img src="/images/2022/2022-08_Bodensee/2022-08_lubw-website.jpg?classes=border" alt="lubw-selection"></p>
+<p>On the next page, select</p>
+<ul>
+<li>Gewässer = Bodensee</li>
+<li>Station = Konstanz Bodensee</li>
+<li>Komponente = Wasserstand, W-Stand, cm</li>
+<li>Produkt = Tagesmaximalwerte</li>
+<li>Zeitraum = 01.01.1850 - 31.12.2022</li>
+</ul>
+<p>You can define a future date for &lsquo;Zeitraum&rsquo;. The source will get you the data which is available.</p>
+<p><img src="/images/2022/2022-08_Bodensee/2022-08_lubw_auswahl.jpg?classes=border" alt="lubw-auswahl"></p>
+<p>Export the data. This is about 6 MB.</p>
+<p><img src="/images/2022/2022-08_Bodensee/2022-08_lubw-export.jpg?classes=border" alt="lubw-result"></p>
+<h4 id="some-data-cleanup">Some data cleanup</h4>
+<p>The output file needs some tweaks.</p>
+<p><img src="/images/2022/2022-08_Bodensee/2022-08_csv.jpg?classes=border" alt="lubw-csv"></p>
+<p>This is what I did</p>
+<ul>
+<li>rows 1 - 6 contain the metadata - I removed this</li>
+<li>rows 7 - 8 are empty - deleted as well</li>
+<li>row 9 contains the column headers - I replaced the word &ldquo;Gewässer&rdquo; with &ldquo;Gewasser&rdquo;, just to get rid of the special character</li>
+</ul>
+<p>We will rename the columns to English as one of the first steps of the data processing in Python.</p>
+<h4 id="data-analysis-1">Data Analysis</h4>
+<p>I stored the data in an S3 bucket.</p>
+<p>Open SageMaker Studio and launch a Python 3 Notebook.</p>
+<hr>
+<p><strong>1/ Import Pandas</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#import pandas</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span></code></pre></div><hr>
+<p><strong>2/ Read csv file</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># read csv file from S3 bucket</span>
+</span></span><span style="display:flex;"><span>bucket <span style="color:#f92672">=</span><span style="color:#e6db74">&#39;s3davibec/Bodensee&#39;</span>
+</span></span><span style="display:flex;"><span>data_key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Max_KN_1850-bis-heute_clean.csv&#39;</span>
+</span></span><span style="display:flex;"><span>data_location <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;s3://</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>format(bucket, data_key)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(data_location)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>head())
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/2_results.jpg" alt="results-step-2"></p>
+<hr>
+<p><strong>3/ Rename to English</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Rename all columns to English</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Messstellennummer&#39;</span>: <span style="color:#e6db74">&#39;measuring_point_number&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Stationsname&#39;</span>: <span style="color:#e6db74">&#39;station_name&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Gewasser&#39;</span>: <span style="color:#e6db74">&#39;waters&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Parameter&#39;</span>: <span style="color:#e6db74">&#39;parameter&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Datum / Uhrzeit&#39;</span>: <span style="color:#e6db74">&#39;date_time&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Zeitbezug&#39;</span>: <span style="color:#e6db74">&#39;time_zone&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Wert&#39;</span>: <span style="color:#e6db74">&#39;value&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Einheit&#39;</span>: <span style="color:#e6db74">&#39;unit&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Produkt&#39;</span>: <span style="color:#e6db74">&#39;value_type&#39;</span>
+</span></span><span style="display:flex;"><span>    })
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>head())
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/3_results.jpg" alt="results-step-3"></p>
+<hr>
+<p><strong>4/ Add Data Conversions</strong></p>
+<p>We need new different data points, like the month-day combination [&ldquo;mm_dd&rdquo;].</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#add all date conversions</span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;date&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(df[<span style="color:#e6db74">&#39;date_time&#39;</span>])<span style="color:#f92672">.</span>dt<span style="color:#f92672">.</span>date
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;year&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(df[<span style="color:#e6db74">&#39;date_time&#39;</span>])<span style="color:#f92672">.</span>dt<span style="color:#f92672">.</span>year
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;month&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(df[<span style="color:#e6db74">&#39;date_time&#39;</span>])<span style="color:#f92672">.</span>dt<span style="color:#f92672">.</span>month
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;day&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(df[<span style="color:#e6db74">&#39;date_time&#39;</span>])<span style="color:#f92672">.</span>dt<span style="color:#f92672">.</span>day
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#convert Month and Day to two digit format</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> io
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#34;month&#34;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>month<span style="color:#f92672">.</span>map(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{:02}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format)
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#34;day&#34;</span>] <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>day<span style="color:#f92672">.</span>map(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{:02}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#new column</span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#34;mm_dd&#34;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#34;month&#34;</span>]<span style="color:#f92672">.</span>astype(str) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;_&#34;</span> <span style="color:#f92672">+</span> df[<span style="color:#e6db74">&#34;day&#34;</span>]<span style="color:#f92672">.</span>astype(str)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>head())
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/4_results.jpg" alt="results-step-4"></p>
+<hr>
+<p><strong>5/ Reduce Data to the Minimum</strong></p>
+<p>Create a new dataset with a minimum of data to make things easier in the next couple of steps.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># creating a new dataset dfs with the minimum data I will need in the next couple of steps</span>
+</span></span><span style="display:flex;"><span>dfs <span style="color:#f92672">=</span> df[[<span style="color:#e6db74">&#39;value&#39;</span>,<span style="color:#e6db74">&#39;date&#39;</span>,<span style="color:#e6db74">&#39;year&#39;</span>,<span style="color:#e6db74">&#39;mm_dd&#39;</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/5_results.jpg" alt="results-step-5"></p>
+<hr>
+<p><strong>6/ Check Data Types</strong></p>
+<p>This might be a good time to check data types.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># check the data types of the various fields</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># apply the dtype attribute</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>dtypes
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Output:&#34;</span>)
+</span></span><span style="display:flex;"><span>print(result)
+</span></span></code></pre></div><p>Resulting in</p>
+<pre tabindex="0"><code>Output:
+value     int64
+date     object
+year      int64
+mm_dd    object
+dtype: object
+</code></pre><hr>
+<p><strong>7/ Get Min, Max, Mean</strong></p>
+<p>Now I am creating a new data set with the three long-term values. For every day of the year, we calculate the Max, the Min, and the Mean.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># create new dataframe with min max mean values for each month date combination</span>
+</span></span><span style="display:flex;"><span>df_mmm <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;mm_dd&#39;</span>)<span style="color:#f92672">.</span>agg(value_min<span style="color:#f92672">=</span>(<span style="color:#e6db74">&#39;value&#39;</span>, <span style="color:#e6db74">&#39;min&#39;</span>), 
+</span></span><span style="display:flex;"><span>                             value_mean<span style="color:#f92672">=</span>(<span style="color:#e6db74">&#39;value&#39;</span>, <span style="color:#e6db74">&#39;mean&#39;</span>), 
+</span></span><span style="display:flex;"><span>                             value_max<span style="color:#f92672">=</span>(<span style="color:#e6db74">&#39;value&#39;</span>, <span style="color:#e6db74">&#39;max&#39;</span>))<span style="color:#f92672">.</span>reset_index()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>df_mmm<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/7_results.jpg" alt="results-step-7"></p>
+<hr>
+<p><strong>8/ Missed the month info on my way, so I need to bring this back in</strong></p>
+<p>I reduced the data in step 5/. But I missed to keep to month info in. For the data visualization, this info is handy. Therefore I re-create a month column.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># extract the first to characters from field mm_dd in order to get the month information back</span>
+</span></span><span style="display:flex;"><span>df_mmm[<span style="color:#e6db74">&#39;month&#39;</span>] <span style="color:#f92672">=</span> df_mmm[<span style="color:#e6db74">&#39;mm_dd&#39;</span>]<span style="color:#f92672">.</span>str[:<span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>df_mmm<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/8_results.jpg" alt="results-step-8"></p>
+<hr>
+<p><strong>9/ Visualize: Max, Min, Avg</strong></p>
+<p>As a first visualization, I am simply setting up the Max, Min, and Mean value. Comparing this to the original graph from the data source, I can check whether my processing is okay.
+I use matplotlib for this purpose.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print min, max, and mean for long-term data</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>df_mmm<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;month&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, top<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Month&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/9_graph.png" alt="graph-step-9"></p>
+<p>This looks all-right.</p>
+<hr>
+<p>10/ Add 2022 data</p>
+<p>The intention of this step is to create a data frame with Max, Min, Mean, and 2022 data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># create dataframe with 2022 data based on dfs</span>
+</span></span><span style="display:flex;"><span>dfs2022 <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[dfs[<span style="color:#e6db74">&#39;year&#39;</span>]<span style="color:#f92672">==</span><span style="color:#ae81ff">2022</span>]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># drop not needed columns</span>
+</span></span><span style="display:flex;"><span>dfs2022 <span style="color:#f92672">=</span> dfs2022<span style="color:#f92672">.</span>drop(columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;date&#39;</span>,<span style="color:#e6db74">&#39;year&#39;</span>], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#rename value column</span>
+</span></span><span style="display:flex;"><span>dfs2022 <span style="color:#f92672">=</span> dfs2022<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#e6db74">&#39;value_2022&#39;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs2022<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/10_results_01.jpg" alt="results-step-10_01"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df_mmm_2022 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>merge(df_mmm, dfs2022, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>, on<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mm_dd&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>df_mmm_2022<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/10_results_02.jpg" alt="results-step-10_02"></p>
+<p>Visualize the data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print min, max, and mean for long-term data</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>df_mmm_2022<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;month&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, top<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Month&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/10_graph.png" alt="graph-step-10"></p>
+<hr>
+<p><strong>11/ Check for years with low levels at that time of the year</strong></p>
+<p>In August, people thought that Lake Constance might see a record low for this time of the year. All Germany saw a record droud.
+With that, I wanted to understand which years saw lower sea levels.</p>
+<p>Get lowest value for the fifth of August:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># get the lowest values on a certain day of the year</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># filter data frame by value</span>
+</span></span><span style="display:flex;"><span>filter_value <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;08_05&#39;</span>}
+</span></span><span style="display:flex;"><span>dfs_min <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[dfs[<span style="color:#e6db74">&#39;mm_dd&#39;</span>]<span style="color:#f92672">.</span>isin(filter_value)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs_min<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/11_results_01.jpg" alt="results-step-11_01"></p>
+<p>Now this data needs to be sorted.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>dfs_min <span style="color:#f92672">=</span> dfs_min<span style="color:#f92672">.</span>sort_values(by<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;value&#39;</span>, ascending<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs_min<span style="color:#f92672">.</span>head(<span style="color:#ae81ff">10</span>)
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/11_results_02.jpg" alt="results-step-11_02"></p>
+<p>Now we know that the water level was lower than in 2022 in four occasions before:</p>
+<ul>
+<li>1949</li>
+<li>2003</li>
+<li>2006</li>
+<li>1964
+This is in ascending order. 1949 saw the lowest value ever recorded on 08/05.</li>
+</ul>
+<p>It is important to note that there are five years after 2000 in this (negative) Top10 list.</p>
+<hr>
+<p><strong>12a/ Dive deeper</strong></p>
+<p>Let us have a closer look at the 1949 data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># create dataframe with 1949 data based on dfs</span>
+</span></span><span style="display:flex;"><span>dfs1949 <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;year&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1949</span>]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># drop not needed columns</span>
+</span></span><span style="display:flex;"><span>dfs1949 <span style="color:#f92672">=</span> dfs1949<span style="color:#f92672">.</span>drop(columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;date&#39;</span>,<span style="color:#e6db74">&#39;year&#39;</span>], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#rename value column</span>
+</span></span><span style="display:flex;"><span>dfs1949 <span style="color:#f92672">=</span> dfs1949<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#e6db74">&#39;value_1949&#39;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs1949<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/12_results_01.jpg" alt="results-step-12_01"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># merge the 1949 data to the dataframe created for 2022</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>merge(df_mmm_2022, dfs1949, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>, on<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mm_dd&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/12_results_02.jpg" alt="results-step-12_02"></p>
+<p>Create a visualization</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print min, max, and mean for long-term data</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;month&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, top<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021 + 2022 and 1949&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Month&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/12_graph.png" alt="graph-step-12"></p>
+<p><strong>12b/ Zoom in summer 1949</strong></p>
+<p>We need to have a closer look here.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># let us zoom in a little bit</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># filter data frame by value</span>
+</span></span><span style="display:flex;"><span>filter_value <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;05&#39;</span>,<span style="color:#e6db74">&#39;06&#39;</span>,<span style="color:#e6db74">&#39;07&#39;</span>,<span style="color:#e6db74">&#39;08&#39;</span>}
+</span></span><span style="display:flex;"><span>df_mmm_1949_zoom <span style="color:#f92672">=</span> df_mmm_1949<span style="color:#f92672">.</span>loc[df_mmm_1949[<span style="color:#e6db74">&#39;month&#39;</span>]<span style="color:#f92672">.</span>isin(filter_value)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># drop not needed columns</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949_zoom <span style="color:#f92672">=</span> df_mmm_1949_zoom<span style="color:#f92672">.</span>drop(columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;value_max&#39;</span>], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949_zoom<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/12_results_03.jpg" alt="results-step-12_03"></p>
+<p>Probably good to check the number of entries.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># check number of rows in df</span>
+</span></span><span style="display:flex;"><span>len(df_mmm_1949_zoom)
+</span></span></code></pre></div><p>Resulting in</p>
+<pre tabindex="0"><code>124 
+</code></pre><p>That sounds right.</p>
+<p>Now we visualize this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print zoom</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>df_mmm_1949_zoom<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;mm_dd&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>, rot<span style="color:#f92672">=</span><span style="color:#ae81ff">90</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plt.ylim(bottom=0, top=800)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021 + 2022 and 1949&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;MM_DD&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/12_graph_02.png" alt="graph-step-12_2"></p>
+<hr>
+<p><strong>13/ All time Max</strong></p>
+<p>Next, we have a look into the all-time max value.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># now let us check out the max value</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># get the max values for all columns</span>
+</span></span><span style="display:flex;"><span>print(dfs<span style="color:#f92672">.</span>max())
+</span></span></code></pre></div><p>Resulting in</p>
+<pre tabindex="0"><code>value           576
+date     2022-08-06
+year           2022
+mm_dd         12_31
+dtype: object
+</code></pre><p>But in which year?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># now we know that the highest value is 576, but in which year did that occur?</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dfs_max <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;value&#39;</span>]<span style="color:#f92672">==</span><span style="color:#ae81ff">576</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs_max
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/13_results_01.jpg" alt="results-step-13_01"></p>
+<p>The answer is 1890.
+Now we want to see what that year looked like.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># create dataframe with 1890 data based on dfs</span>
+</span></span><span style="display:flex;"><span>dfs1890 <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;year&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1890</span>]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># drop not needed columns</span>
+</span></span><span style="display:flex;"><span>dfs1890 <span style="color:#f92672">=</span> dfs1890<span style="color:#f92672">.</span>drop(columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;date&#39;</span>,<span style="color:#e6db74">&#39;year&#39;</span>], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#rename value column</span>
+</span></span><span style="display:flex;"><span>dfs1890 <span style="color:#f92672">=</span> dfs1890<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#e6db74">&#39;value_1890&#39;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs1890<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/13_results_02.jpg" alt="results-step-13_02"></p>
+<p>Merge the data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>dfs_mmm_1890 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>merge(dfs1890, df_mmm, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>, on<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mm_dd&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs_mmm_1890<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/13_results_03.jpg" alt="results-step-13_03"></p>
+<p>And now we visualize</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print min, max, and mean for long-term data</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>dfs_mmm_1890<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;month&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, top<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021 + 1890&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Month&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/13_graph.png" alt="graph-step-13"></p>
+<hr>
+<p><strong>14/ Check year 1999</strong></p>
+<p>I still remember the flood from summer 1999. At that time, the military took us to school. Let us have a look at this year.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># and what was 1999</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># create dataframe with 1999 data based on dfs</span>
+</span></span><span style="display:flex;"><span>dfs1999 <span style="color:#f92672">=</span> dfs<span style="color:#f92672">.</span>loc[df[<span style="color:#e6db74">&#39;year&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1999</span>]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># drop not needed columns</span>
+</span></span><span style="display:flex;"><span>dfs1999 <span style="color:#f92672">=</span> dfs1999<span style="color:#f92672">.</span>drop(columns<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;date&#39;</span>,<span style="color:#e6db74">&#39;year&#39;</span>], axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#rename value column</span>
+</span></span><span style="display:flex;"><span>dfs1999 <span style="color:#f92672">=</span> dfs1999<span style="color:#f92672">.</span>rename(columns<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;value&#39;</span>: <span style="color:#e6db74">&#39;value_1999&#39;</span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs1999<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/14_results_01.jpg" alt="results-step-14_01"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>dfs_1890_1999 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>merge(dfs1890, dfs1999, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>, on<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mm_dd&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dfs_1890_1999<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/14_results_02.jpg" alt="results-step-14_02"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>dfs_mmm_1890_1999 <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>merge(dfs_1890_1999, df_mmm, how<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;left&#34;</span>, on<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mm_dd&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># print</span>
+</span></span><span style="display:flex;"><span>dfs_mmm_1890_1999<span style="color:#f92672">.</span>head()
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/14_results_03.jpg" alt="results-step-14_03"></p>
+<p>And visualization again</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print min, max, and mean for long-term data</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># import matplotlib</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot</span>
+</span></span><span style="display:flex;"><span>dfs_mmm_1890_1999<span style="color:#f92672">.</span>plot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;month&#39;</span>, kind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;line&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylim(bottom<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, top<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># description</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#34;Level of Lake Constance: 1850 to 2021 + 1949 and 1999&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#34;Month&#34;</span>)
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#34;Level [cm]&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add grid</span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>grid()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>plt<span style="color:#f92672">.</span>show()<span style="color:#75715e">#</span>
+</span></span></code></pre></div><p>Resulting in</p>
+<p><img src="/images/2022/2022-08_Bodensee/14_graph.png" alt="graph-step-14"></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div></article>
+
+    </main>
+    <footer class="bg-gray bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://davidbeck.online/" >
+    &copy;  Blog by David Beck 2026 
+  </a>
+    <div><div class="ananke-socials"><a href="https://hachyderm.io/@davidbeck" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition mastodon link dib z-999 pt3 pt0-l mr1"
+        title="follow on Mastodon - Opens in a new window"
+        aria-label="follow on Mastodon - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+            
+          </span></a><a href="https://codeberg.org/steiger" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition codeberg link dib z-999 pt3 pt0-l mr1"
+        title="follow on Codeberg - Opens in a new window"
+        aria-label="follow on Codeberg - Opens in a new window">
+      <span class="icon">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg1468"
+   sodipodi:docname="codeberg-logo_special_no-halftone.svg"
+   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
+   inkscape:export-filename="/home/mray/Projects/Codeberg/codeberg_.png"
+   inkscape:export-xdpi="1536"
+   inkscape:export-ydpi="1536"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2230">Codeberg logo special version</title>
+  <defs
+     id="defs1462" />
+  <sodipodi:namedview
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox="true"
+     showborder="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="5.7452425"
+     inkscape:cy="32.261747"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:snap-global="false"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2067" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Codeberg logo special version</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Robert Martinez</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:description>Special single color version with fake halftone</dc:description>
+        <dc:date>2020-04-09</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Codeberg and the Codeberg Logo are trademarks of Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>codeberg.org</dc:source>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.867463,-75.990641)">
+    <g
+       id="g1542-5-7-2"
+       style="opacity:1"
+       transform="matrix(0.62731857,0,0,0.30231784,25.415003,63.342477)" />
+    <path
+       id="rect60043"
+       style="fill-opacity:1;stroke:none;stroke-width:0.0660874;paint-order:markers fill stroke;stop-color:#000000"
+       d="m 46.983886,76.122471 c -1.172544,0 -2.116423,0.944367 -2.116423,2.116911 -5.6e-5,0.397554 0.112002,0.787589 0.323326,1.124632 l 1.764533,-2.281439 c 0.01275,-0.01632 0.04434,-0.01632 0.05708,0 l 0.736954,0.952848 h -0.527804 l 0.01143,0.04204 h 0.549083 l 0.155695,0.200846 h -0.648209 l 0.01818,0.06591 h 0.680903 l 0.137012,0.176972 h -0.768612 l 0.02386,0.08511 h 0.810129 l 0.122481,0.157769 H 47.42501 l 0.02906,0.103797 h 0.939356 l 0.10743,0.138567 h -1.008381 l 0.03218,0.114695 h 1.064947 l 0.09912,0.128189 h -1.128265 l 0.03218,0.114694 h 1.184832 c 0.211323,-0.337043 0.323393,-0.727078 0.323326,-1.12463 1e-6,-1.172544 -0.944364,-2.116911 -2.116909,-2.116911 z m 0.644552,3.369732 0.03218,0.114695 h 0.939339 c 0.03063,-0.03616 0.06232,-0.07645 0.09055,-0.114695 z m 0.06799,0.242882 0.03166,0.114695 h 0.628487 c 0.04111,-0.03504 0.08566,-0.07553 0.125654,-0.114694 z m 0.06747,0.242883 0.03218,0.114176 h 0.212225 c 0.06271,-0.03599 0.120816,-0.07262 0.183679,-0.114176 z"
+       sodipodi:nodetypes="scccccccccccccccccccccccccccccsccccccccccccccc" />
+  </g>
+</svg>
+
+            
+          </span></a><a href="/index.xml" target="_blank" rel="noopener"
+        class="ananke-social-link link-transition rss link dib z-999 pt3 pt0-l mr1"
+        title="follow on RSS - Opens in a new window"
+        aria-label="follow on RSS - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+            
+          </span></a></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
