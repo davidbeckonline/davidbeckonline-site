@@ -1,22 +1,14 @@
-name: Deploy Hugo site to Pages
-
+name: Publish
 on:
   push:
-    branches:
-      - main
-
 jobs:
-  build:
-    runs-on: docker
+  publish:
+    runs-on: codeberg-tiny
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Build Hugo site
-        uses: https://code.forgejo.org/actions/hugo-build@v3
+      - uses: actions/checkout@v5
+      - run: hugo
+      - uses: actions/git-pages@v2
         with:
-          hugo-version: 'latest'
-      
-      - name: Upload to Pages
-        uses: https://code.forgejo.org/actions/git-pages@v1
-        with:
-          source-dir: public
+          site: https://steiger.codeberg.page/davidbeckonline-site/
+          token: ${{ forge.token }}
+          source: public/
