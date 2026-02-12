@@ -1,0 +1,22 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: docker
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Build Hugo site
+        uses: https://code.forgejo.org/actions/hugo-build@v3
+        with:
+          hugo-version: 'latest'
+      
+      - name: Upload to Pages
+        uses: https://code.forgejo.org/actions/git-pages@v1
+        with:
+          source-dir: public
