@@ -6,7 +6,10 @@ jobs:
     runs-on: codeberg-tiny
     steps:
       - uses: actions/checkout@v5
-      - run: hugo
+      - run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-amd64.tar.gz
+          tar -xzf hugo_0.139.3_linux-amd64.tar.gz
+          ./hugo
       - uses: actions/git-pages@v2
         with:
           site: https://steiger.codeberg.page/davidbeckonline-site/
