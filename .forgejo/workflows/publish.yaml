@@ -17,6 +17,6 @@ jobs:
       - uses: actions/git-pages@v2
         with:
           site: https://steiger.codeberg.page/davidbeckonline-site/
-          token: ${{ secrets.PAGES_TOKEN }}
+          token: token: ${{ secrets.CODEBERG_TOKEN }}
           source: public/
           
