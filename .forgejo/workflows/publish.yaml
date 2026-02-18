@@ -1,17 +1,21 @@
 name: Publish
 on:
   push:
+    branches:
+      - main
 jobs:
   publish:
-    runs-on: codeberg-tiny
+    runs-on: codeberg-small
     steps:
       - uses: actions/checkout@v5
+        with:
+          submodules: true
       - run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-amd64.tar.gz
+          wget -q https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-amd64.tar.gz
           tar -xzf hugo_0.139.3_linux-amd64.tar.gz
           ./hugo
       - uses: actions/git-pages@v2
         with:
           site: https://steiger.codeberg.page/davidbeckonline-site/
-          token: ${{ forge.token }}
+          token: ${{ secrets.PAGES_TOKEN }}
           source: public/
