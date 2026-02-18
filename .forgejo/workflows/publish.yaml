@@ -19,3 +19,4 @@ jobs:
           site: https://steiger.codeberg.page/davidbeckonline-site/
           token: ${{ secrets.PAGES_TOKEN }}
           source: public/
+          
