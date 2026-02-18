@@ -12,7 +12,7 @@ jobs:
           submodules: true
       - run: |
           wget -q https://github.com/gohugoio/hugo/releases/download/v0.139.3/hugo_0.139.3_linux-amd64.tar.gz
-          tar -xzf hugo_0.152.2_linux-amd64.tar.gz
+          tar -xzf hugo_0.155.3_linux-amd64.tar.gz   
           ./hugo
       - uses: actions/git-pages@v2
         with:
