@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   publish:
-    runs-on: codeberg-medium
+    runs-on: codeberg-small
     steps:
       - uses: actions/checkout@v5
         with:
