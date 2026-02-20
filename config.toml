@@ -5,6 +5,9 @@ theme = "ananke"
 
 SectionPagesMenu = "main"
 
+# robot.txt is false because I am not using a template
+enableRobotsTXT = false
+
 [params]
   description = "A simple Website for random stuff."
   background_color_class = "bg-gray"
